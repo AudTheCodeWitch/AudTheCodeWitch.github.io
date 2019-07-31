@@ -5,7 +5,7 @@ header-img: img/home-bg.png
 email: audreacwork@gmail.com
 copyright_name: Audrea Cook
 description: > # this means to ignore newlines until "baseurl:"
-  Magic is in the rspec
+  A little magic goes a long way.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  AudTheCodeWitch
