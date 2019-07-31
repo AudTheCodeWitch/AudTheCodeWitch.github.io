@@ -1,11 +1,11 @@
 # Site settings
 author: Audrea Cook
-title: 
+title: The Code Witch
 header-img: img/home-bg.png
 email: audreacwork@gmail.com
 copyright_name: Audrea Cook
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Magic is in the rspec
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  AudTheCodeWitch
