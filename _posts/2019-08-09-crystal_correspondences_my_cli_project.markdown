@@ -50,7 +50,8 @@ Though I am submitting my CLI Project this evening, I in no way think of my gem 
 
 ## Teamwork Makes the Dream Work
 Though I am immensely proud of my progress this week, I would be remiss if I did not mention my fantastic support system. Without my family, the awesome members of my GitIt-Togthr cohort, and my coaches, Morgan and Talia, I would have been completely overwhelmed by this project. Thanks, guys. Y’all are the real MVPs.
-<center><iframe src="https://giphy.com/embed/lFZnIqMFm4eje" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-description-lFZnIqMFm4eje">via GIPHY</a></p></center>
+<center><iframe src="https://giphy.com/embed/jS2tfbvc1fksIZKWP5" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+
 
 ## Check It Out
 If you’d like to see my Gem in action, watch the video here:
