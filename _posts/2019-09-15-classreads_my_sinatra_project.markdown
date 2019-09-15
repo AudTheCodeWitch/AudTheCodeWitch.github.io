@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "ClassReads: My Sinatra Project"
-date:       2019-09-15 21:40:52 +0000
+date:       2019-09-15 17:40:53 -0400
 permalink:  classreads_my_sinatra_project
 ---
 
@@ -20,7 +20,7 @@ This app has three basic parts, the models, views, and controllers. The models h
 
 As you can see, The models tangle together in some confusing ways. A teacher has many books and students, but does not have any reviews. Students belong to a teacher, and they have many reviews. Through the reviews, students also have many books. The reverse is true for books. The reviews table acts as a joining table, even though it has its own unique attributes.
 
-![Imgur](https://imgur.com/d4t40Zn)
+![Imgur](https://i.imgur.com/d4t40Zn.jpg)
 
 ### Views
 I had a lot of fun designing the various view pages. In total, this app has 16 different view pages, plus the layout page that creates a cohesive theme throughout the app. Customizing each page through HTML and CSS brought me back to my Neopets days (yeah, I’m getting old), and I had a blast remembering how to tweak a page to look just right. One thing I would like to revise in the future would be the different forms throughout the site. They are functional, but they just aren’t pretty enough.
@@ -39,6 +39,7 @@ The BooksController is the most complicated controller in my application. They h
 Overall, this was a challenging project. I ran into many issues throughout the week, but I am proud of my end result. One of the major challenges I encountered was deciding how to structure and seed my database. It took a lot of planning to visualize just how each table would connect to the others. Once I got that built, I still needed to populate my database so I had something to work with. I used the [Faker](https://github.com/faker-ruby/faker) gem to do this, which unintentionally led to the discovery of several bugs I doubt I would have found on my own. In my app’s original design, the URL path for an individual book was something like “/books/book-title.” I wanted the title in the URL for the sake of the student users. I thought it would be an easy way to quickly go to a book page. As it turns out, different teachers own different copies of the same book. When a student left a review, sometimes that review saved to a different teacher’s book. To solve this problem, I added the book_id into the URL, so now it is “/books/book_id/title.” The title in the URL is no longer necessary, but I chose to leave it for now.
 
 Because I chose to have two different user types, my app required a few extra checks when loading a page. Students could see and do some things, while teachers could see and do other things on the same page. For example, students can only edit their own reviews, but teachers can edit and delete any review. This required a few careful if statements, like the following:
+
 ```<% @book.reviews.each do |r| %>
     <li><h4><%= r.student.name %> gives this book <%= r.rating %> stars!</h4>
       <p><%= r.review %></p>
