@@ -6,7 +6,7 @@ permalink:  classreads_my_sinatra_project
 ---
 
 
-I’ve done it! I’ve designed and built a complete MVC app from start to finish! There were many points along this journey where I thought I may not finish, but here I am, on the other side. It feels fantastic to know how much I've learned in the past few weeks!
+I’ve done it! I’ve designed and built a complete MVC app from start to finish! There were many points along this journey where I thought I may not succeed, but here I am, on the other side. It feels fantastic to know how much I've learned in the past few weeks!
 
 ## Choosing a Project
 Prior to embarking on this coding adventure, I was a second-grade teacher. I had hundreds of books in my classroom library, but I had no way to track what I had in my inventory, much less know what kinds of books my students were interested in. I remember attempting to use GoodReads to track my books, but it ultimately wasn’t worth the effort. While I was teaching, I never found a solution that really worked for me.
@@ -18,12 +18,12 @@ This app has three basic parts, the models, views, and controllers. The models h
 
 ### Models
 
-As you can see, The models tangle together in some confusing ways. A teacher has many books and students, but does not have any reviews. Students belong to a teacher, and they have many reviews. Through the reviews, students also have many books. The reverse is true for books. The reviews table acts as a joining table, even though it has its own unique attributes.
+As you can see below, The models tangle together in some confusing ways. A teacher has many books and students, but does not have any reviews. Students belong to a teacher, and they have many reviews. Through the reviews, students also have many books. The reverse is true for books. The reviews table acts as a joining table, even though it also has its own unique attributes.
 
-![Imgur](https://imgur.com/d4t40Zn)
+![Imgur](https://i.imgur.com/d4t40Zn.jpg)
 
 ### Views
-I had a lot of fun designing the various view pages. In total, this app has 16 different view pages, plus the layout page that creates a cohesive theme throughout the app. Customizing each page through HTML and CSS brought me back to my Neopets days (yeah, I’m getting old), and I had a blast remembering how to tweak a page to look just right. One thing I would like to revise in the future would be the different forms throughout the site. They are functional, but they just aren’t pretty enough.
+I had a lot of fun designing the various view pages. In total, this app has 16 different view pages, plus the layout page that creates a cohesive theme throughout the app. Customizing each page through HTML and CSS brought me back to my Neopets days (yeah, I’m getting old), and I had a blast remembering how to tweak a page to look just right. One thing I would like to revise in the future would be the different forms throughout the site. They are functional, but they just aren’t pretty enough. I would also like to add more images to spruce things up a bit.
 
 ### Controllers
 The controllers portion of my app was by far the most complicated for me. In addition to the ApplicationController, I also had a BooksController, StudentsController, and TeachersController. Because the reviews are really just a joiner between books and students, I chose not to create a separate controller for them. Their CRUD (Create, Read, Update/edit, Destroy/delete) actions occur within the BooksController.
@@ -67,7 +67,7 @@ delete '/books/:id/:slug' do
     @book.destroy
     redirect '/books'
   end
-	```
+```
 
 The third and fourth lines above clear the reviews from a book before the book is deleted, avoiding any future “no-method” errors.
 
