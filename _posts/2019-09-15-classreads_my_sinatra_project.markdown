@@ -66,7 +66,7 @@ delete '/books/:id/:slug' do
     @book.save
     @book.destroy
     redirect '/books'
-  end
+end
 ```
 
 The third and fourth lines above clear the reviews from a book before the book is deleted, avoiding any future “no-method” errors.
