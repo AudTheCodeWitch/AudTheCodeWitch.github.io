@@ -20,7 +20,7 @@ This app has three basic parts, the models, views, and controllers. The models h
 
 As you can see, The models tangle together in some confusing ways. A teacher has many books and students, but does not have any reviews. Students belong to a teacher, and they have many reviews. Through the reviews, students also have many books. The reverse is true for books. The reviews table acts as a joining table, even though it has its own unique attributes.
 
-![Imgur](https://i.imgur.com/d4t40Zn.jpg)
+![Imgur](https://imgur.com/d4t40Zn)
 
 ### Views
 I had a lot of fun designing the various view pages. In total, this app has 16 different view pages, plus the layout page that creates a cohesive theme throughout the app. Customizing each page through HTML and CSS brought me back to my Neopets days (yeah, I’m getting old), and I had a blast remembering how to tweak a page to look just right. One thing I would like to revise in the future would be the different forms throughout the site. They are functional, but they just aren’t pretty enough.
@@ -40,7 +40,8 @@ Overall, this was a challenging project. I ran into many issues throughout the w
 
 Because I chose to have two different user types, my app required a few extra checks when loading a page. Students could see and do some things, while teachers could see and do other things on the same page. For example, students can only edit their own reviews, but teachers can edit and delete any review. This required a few careful if statements, like the following:
 
-```<% @book.reviews.each do |r| %>
+```
+<% @book.reviews.each do |r| %>
     <li><h4><%= r.student.name %> gives this book <%= r.rating %> stars!</h4>
       <p><%= r.review %></p>
       <% if current_user.username == r.student.username || session[:role] == 'teacher' %>
@@ -52,18 +53,21 @@ Because I chose to have two different user types, my app required a few extra ch
           </form></li>
         </ul><br><br>
       <% end %>
-    </li>```
+    </li>
+```
 
 
 This project was as much a lesson in debugging as it was in building a MVC app. Just when I thought my app was running smoothly, I would discover a new issue. Some were simple styling fixes, like making sure all the buttons looked the same and that forms had a standard format. Others, like the book title one described above, required much more brain-power to solve. I found that when I deleted a book or student from the database, it did not always delete the associated reviews. To solve this, I had to add a few lines of code to my delete paths:
 
-```delete '/books/:id/:slug' do
+```
+delete '/books/:id/:slug' do
     @book = Book.find_by_id(params[:id])
     @book.reviews.each {|r| r.destroy}
     @book.save
     @book.destroy
     redirect '/books'
-  end```
+  end
+	```
 
 The third and fourth lines above clear the reviews from a book before the book is deleted, avoiding any future “no-method” errors.
 
@@ -74,6 +78,6 @@ On the teacher side of things, I would like to create some dashboard-type featur
 
 ## Check It Out
 If you’d like to see my Gem in action, watch the video here:
-<center><iframe width="560" height="315" src="https://youtu.be/ghpOWOONnn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/ghpOWOONnn8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
 
 If you’d like to take a look at my code and suggest ways I could improve it (please do!), [check out the repo](https://github.com/AudTheCodeWitch/ClassReads).
