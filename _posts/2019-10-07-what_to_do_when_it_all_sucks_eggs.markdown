@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "What to Do When It All Sucks Eggs"
-date:       2019-10-07 20:11:25 +0000
+date:       2019-10-07 16:11:26 -0400
 permalink:  what_to_do_when_it_all_sucks_eggs
 ---
 
 
 Confession (aka whining) time: the last two weeks have been very difficult for me. I’m not learning as quickly as I think I should be, I’m constantly making stupid mistakes, and I can’t remember anything about forms and Rails and Ruby and... So basically, I should just give up and move on with my life.
 
-<center><iframe src="https://giphy.com/embed/k2pIAjlbV6Qec" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p></center>
+<center><iframe src="https://giphy.com/embed/k2pIAjlbV6Qec" width="480" height="267" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
 
 Except that’s crazy. I’m not being kind or even remotely fair to myself. I’m wallowing in self-pity and negative self-talk. The former teacher in me remembers seeing my students struggle in the _exact same way_, and not one of them was right about their inability to learn. If I was my own student in Mrs. Cook’s (that’s me!) class two years ago, I’d be in for an earful. So, it’s time to put my teacher hat back on and take myself to second grade…
 
