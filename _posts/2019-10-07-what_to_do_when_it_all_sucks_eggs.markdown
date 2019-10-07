@@ -54,7 +54,7 @@ Be your own cheerleader, even when you think you stink. In a recent meeting with
 If you just can’t think of anything nice to say to yourself, reach out to your support team. If you are a Flatiron student, this team includes your coaches, your fellow cohort members, and the rest of the Flatiron community! Reach out; we’ll lift you up. If you aren’t a Flatiron student, we’ll still be happy to send good vibes your way. Learning is hard. You aren’t alone.
 
 
-<center><iframe src="https://giphy.com/embed/14w1fH2C4zM21a" width="480" height="243" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+<center><iframe src="https://media.giphy.com/media/14w1fH2C4zM21a/giphy.gif" width="480" height="243" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
 
 
 As a teacher, I spent hours developing a growth mindset culture inside my classroom. We talked about the “Power of Yet,” the idea that when we learn, we are actively [growing our brains](https://charterforcompassion.org/the-brain-science-behind-learning). As it turns out, I forgot the lessons I was once so proud of teaching. I just don’t get it YET, but I will. What seemed impossible in June is second-nature today. This will be, too. 
