@@ -213,11 +213,7 @@ While the `create` method handles the `Tank` and `Maintenance` instances, the `T
 
 My Rails project was, more than anything, a lesson in prioritization and, to some extent, humility. I entered project week with grand designs for the most beautiful Rails app _OF ALL TIME_. Then life happened. Setting up PostgreSQL took longer than I expected. I had a 2-day migraine that seriously killed my productivity. I was cranky because we went from 80-degree weather to snow overnight (seriously, [Colorado is dumb](https://gazette.com/news/colorado-springs-first-fall-snow-packs-a-punch-leaves-freezing/article_101135f4-ebbf-11e9-a073-234aa734c815.html)). All these factors played a part in the app I present to you today.
 
-<center>
-
-![Priorities](https://media.giphy.com/media/RJVHpGEaZ3GkMoQCPp/giphy.gif)
-
-</center>
+<center><img src='https://media.giphy.com/media/RJVHpGEaZ3GkMoQCPp/giphy.gif' alt='Ron Weasley talking about priorities'></center>
 
 Let’s talk about MVP. My entire life, I’ve thought of this acronym as “Most Valuable Person” (not “Player;” I hate sports). I constantly strive to be the MVP in everything I do. Even when there is no competition, I compete with myself. I expect more from myself than anyone will _ever_ expect of me, and this usually leads to pretty great results, albeit with enormous, unhealthy amounts of stress.
 
