@@ -11,14 +11,18 @@ How are we back here again? It feels like I just [wrote one of these](https://au
 
 ## Choosing a Project
 
-I have maintained aquariums for nearly 20 years. At one point, I had over 300 gallons of freshwater aquariums to keep up with. Tank maintenance was a huge and complicated chore. Once again, I designed the app I wish I had, one that would schedule tasks, track aquarium stocking numbers, and give me a place to record and monitor test results. 
+I have maintained aquariums for nearly 20 years. At one point, I had over 300 gallons of freshwater aquariums to keep up with. Tank maintenance was a huge and complicated chore. Once again, I designed the app I wish I had, one that would schedule tasks, track aquarium stocking numbers, and give me a place to record and monitor test results.
 
 
 ## Building TankMate
 
 This app saw me through several firsts. Installing and using PostgreSQL was an adventure, to say the least. Configuring my IDE to use PostgreSQL instead of SQLite was a day-long event that forced me to flex my Google muscle to overcome random errors. Once I got it up and running, I was off to the races, structuring my database with several `has_many` and `has_many_through` relationships:
 
-<center>![TankMate Database Relationships](https://i.imgur.com/1HGDhy6.jpg)</center>
+<center>
+
+![TankMate Database Relationships](https://i.imgur.com/1HGDhy6.jpg)
+
+</center>
 
 I also used Devise for the first time. Devise is a powerful tool that let me build my user authentication and setup OmniAuth so users can login with Facebook. I highly recommend using Devise because it simplifies the authentication process, but it does take a little configuring to get it working properly. Rails Girls has a very [helpful guide](https://guides.railsgirls.com/devise) for this.
 
@@ -73,8 +77,9 @@ helper_method :params
     end
 
   end
-	
-	```
+
+```
+
 
 Here are the scope methods, stored in the Maintenance class, where they belong:
 
@@ -134,13 +139,13 @@ For some reason, I really struggled with forms on this project. I had particular
 
 ```
 
-def create 
+def create
 
 ```
 
 If the user does not select a tank, throw an error:
 
-``` 
+```
 
   if maintenance_params[:tank_id].length == 1
 
@@ -213,17 +218,21 @@ While the `create` method handles the `Tank` and `Maintenance` instances, the `T
 My Rails project was, more than anything, a lesson in prioritization and, to some extent, humility. I entered project week with grand designs for the most beautiful Rails app _OF ALL TIME_. Then life happened. Setting up PostgreSQL took longer than I expected. I had a 2-day migraine that seriously killed my productivity. I was cranky because we went from 80-degree weather to snow overnight (seriously, [Colorado is dumb](https://gazette.com/news/colorado-springs-first-fall-snow-packs-a-punch-leaves-freezing/article_101135f4-ebbf-11e9-a073-234aa734c815.html)). All these factors played a part in the app I present to you today.
 
 <center>
+
 ![Priorities](https://media.giphy.com/media/RJVHpGEaZ3GkMoQCPp/giphy.gif)
+
 </center>
 
 Let’s talk about MVP. My entire life, I’ve thought of this acronym as “Most Valuable Person” (not “Player;” I hate sports). I constantly strive to be the MVP in everything I do. Even when there is no competition, I compete with myself. I expect more from myself than anyone will _ever_ expect of me, and this usually leads to pretty great results, albeit with enormous, unhealthy amounts of stress.
 
-My Rails project, and all the struggles I incurred along the way, forced me to shift my perspective of MVP to “Minimum Viable Product.” When my husband suggested this tactic early in the week (probably when I was just starting to annoy him with my frenzied rants about PostgreSQL), I scoffed at the idea. I don’t do “minimum.” In my mind, that equated to “lazy,” which I’m not. 
+My Rails project, and all the struggles I incurred along the way, forced me to shift my perspective of MVP to “Minimum Viable Product.” When my husband suggested this tactic early in the week (probably when I was just starting to annoy him with my frenzied rants about PostgreSQL), I scoffed at the idea. I don’t do “minimum.” In my mind, that equated to “lazy,” which I’m not.
 
-As the week progressed, however, I gradually altered my thinking. I came to realize I had my priorities all out of whack. I was literally making myself ill worrying about things like CSS styling and complicated forms when they weren’t even mentioned in the project requirements. Why was I torturing myself? It’s not like Flatiron is giving out extra credit, y’all. Besides, by focusing on elements I didn’t need, I was neglecting features that were required, and the deadline was swiftly approaching. If I kept it up, I would straight-up fall like a balrog. 
+As the week progressed, however, I gradually altered my thinking. I came to realize I had my priorities all out of whack. I was literally making myself ill worrying about things like CSS styling and complicated forms when they weren’t even mentioned in the project requirements. Why was I torturing myself? It’s not like Flatiron is giving out extra credit, y’all. Besides, by focusing on elements I didn’t need, I was neglecting features that were required, and the deadline was swiftly approaching. If I kept it up, I would straight-up fall like a balrog.
 
 <center>
+
 ![You Shall Not Pass](http://giphygifs.s3.amazonaws.com/media/njYrp176NQsHS/giphy.gif)
+
 </center>
 
 So I got my priorities straight. I listed out all the things I _wanted_ to do with my app as well as all the things I _needed_ to do. I sorted my list by importance and complexity, and started checking them off one by one. Once I focused, I found the whole process of building TankMate to go much smoother. I still have many features to implement, but now I have an ordered list from which to move forward.
@@ -239,7 +248,9 @@ I am, overall, very happy with the core functionality of TankMate. It does what 
 If you’d like to see my app in action, watch the video here:
 
 <center>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DTcGiADOdbU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </center>
 
 If you’d like to take a look at my code and suggest ways I could improve it (please do!), [check out the repo](https://github.com/AudTheCodeWitch/tankmate).
