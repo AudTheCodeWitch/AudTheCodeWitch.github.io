@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "OurCAL: My Javascript Project"
-date:       2019-11-11 01:56:30 +0000
+date:       2019-11-10 20:56:31 -0500
 permalink:  ourcal_my_javascript_project
 ---
 
@@ -26,7 +26,6 @@ Being a Javascript project, the majority of my work this week dealt with the fro
 
 <center><a href="http://www.neopets.com/terms.phtml"><img src="http://images.neopets.com/community/stuff/ac_commentator_anim.gif"  ></a></center>
 
-![](http://)
 
 
 ## Challenges and Breakthroughs
@@ -211,9 +210,8 @@ With these functions in place, fetching the blocks from the database works like 
 
 
 ## Ideas for Improvement
-<div style="float: right">
-    ![My blanket from the 2017 MooglyCAL](https://i.imgur.com/nCQN01R.jpg?2)
-</div>
+
+<img src="https://i.imgur.com/nCQN01R.jpg?2" alt='My 2017 MooglyCAL blanket' style='float: right' >
 
 Though I am personally blown away by my progress with this app, I do have a few more tweaks I would like to make before deployment. First, I want to add OAuth or some sort of user authentication. As it stands, a user can delete any block, not just his or her own. I also want to add a function that allows the user to see all the blocks rendered in his or her chosen color scheme. If I wanted to make _another_ Ravenclaw-themed blanket,
 
