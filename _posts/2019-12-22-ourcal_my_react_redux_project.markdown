@@ -6,7 +6,7 @@ permalink:  ourcal_my_react_redux_project
 ---
 
 <center>
-![This Is It](https://media.giphy.com/media/39ChmjbAML62wn3vW9/giphy.gif)
+  <img src='https://media.giphy.com/media/39ChmjbAML62wn3vW9/giphy.gif' alt='This Is It'>
 </center>
 
 Holy crackers, I did it. I completed my final project for Flatiron School! This whole experience has been such a boost to my confidence, and I am thrilled to enter the next stage of my journey. But first, let’s talk about OurCal v0.2.0, my final project.
@@ -43,7 +43,7 @@ Let me level with you: I took the week of Thanksgiving off to spend some much-ne
 One of the most challenging aspects of React and Redux was, for me, the concept of global and local state. I watched countless videos and read so many tutorials, but it still seemed like gibberish to me. 
 
 <center>
-![What Does It Mean?!](https://media.giphy.com/media/l0Iy5HPh4IKOMyXAI/giphy.gif)
+  <img src='https://media.giphy.com/media/l0Iy5HPh4IKOMyXAI/giphy.gif' alt='What Does It Mean?!'>
 </center>
 
 Because of this confusion, I first built a static app populated by dummy data. Everything looked right, but nothing worked. From there, I tackled what I perceived to be the easiest bits. 
@@ -146,6 +146,6 @@ If you’d like to take a look at my code and suggest ways I could improve it (p
 I can’t believe this Bootcamp is at its conclusion. I have learned far more than I ever anticipated, and I made great friends along the way. If you are considering stepping out of your comfort zone and learning something new, be it coding, crochet, or underwater basket-weaving, you have my full support. You deserve to take risks, and trust me, the journey will be entirely worth it.
 
 <center>
-![Mission Accomplished](https://media.giphy.com/media/8UF0EXzsc0Ckg/giphy.gif)
+  <img src='https://media.giphy.com/media/8UF0EXzsc0Ckg/giphy.gif' alt='Mission Accomplished'>
 </center>
 
