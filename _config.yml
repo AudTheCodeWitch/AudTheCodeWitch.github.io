@@ -5,7 +5,7 @@ header-img: img/home-bg.png
 email: audreacwork@gmail.com
 copyright_name: Audrea Cook
 description: > # this means to ignore newlines until "baseurl:"
-  A little magic goes a long way.
+  A little magic goes a long way, especially in code.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: AudTheCodeWitch
 github_username:  AudTheCodeWitch
