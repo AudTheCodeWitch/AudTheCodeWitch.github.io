@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Upgrade Your Basic Flatiron Blog"
-date:       2020-02-20 22:22:34 +0000
+date:       2020-02-20 17:22:35 -0500
 permalink:  upgrade_your_basic_flatiron_blog
 ---
 
@@ -24,14 +24,12 @@ You guys, I did a thing. I finally purchased a custom domain for my blog. Welcom
 
 1. Purchase a domain name on a site like Namecheap (that’s who I used). Come up with a name that’s relevant and memorable. I like the `.dev` extension because it tells visitors exactly what they are getting with my site.
 2. We need to add 5 DNS records to your new domain. On Namecheap, you can do this under the Advanced DNS tab. Copy these records, substituting your GitHub username for the `CNAME`:
-
-<center>
+<br><center>
 <img src='https://i.imgur.com/mysawbK.jpg' alt="DNS Records"/>
 </center>
 
 3. Now, navigate to the `Settings` tab on your blog’s GitHub repository, and scroll down to the `GitHub Pages` section. Enter your new domain in the provided text box and click `Save`. When available (it took about 5 minutes for me), refresh the page and check the `Enforce HTTPS` box. 
-
-<center>
+<br><center>
 <img src='https://i.imgur.com/ZpwtU8f.jpg' alt="Custom Domain Settings on GitHub"/>
 </center>
 
