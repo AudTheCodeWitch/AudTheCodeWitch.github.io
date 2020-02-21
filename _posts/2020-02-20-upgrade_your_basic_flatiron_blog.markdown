@@ -24,17 +24,15 @@ You guys, I did a thing. I finally purchased a custom domain for my blog. Welcom
 
 1. Purchase a domain name on a site like Namecheap (that’s who I used). Come up with a name that’s relevant and memorable. I like the `.dev` extension because it tells visitors exactly what they are getting with my site.
 2. We need to add 5 DNS records to your new domain. On Namecheap, you can do this under the Advanced DNS tab. Copy these records, substituting your GitHub username for the `CNAME`:
-
-<center>
-<img src='https://i.imgur.com/mysawbK.jpg' alt="DNS Records"/>
-</center>
-
+  <center>
+  <img src='https://i.imgur.com/mysawbK.jpg' alt="DNS Records"/>
+  </center>
+  
 3. Now, navigate to the `Settings` tab on your blog’s GitHub repository, and scroll down to the `GitHub Pages` section. Enter your new domain in the provided text box and click `Save`. When available (it took about 5 minutes for me), refresh the page and check the `Enforce HTTPS` box. 
-
-<center>
-<img src='https://i.imgur.com/ZpwtU8f.jpg' alt="Custom Domain Settings on GitHub"/>
-</center>
-
+  <center>
+  <img src='https://i.imgur.com/ZpwtU8f.jpg' alt="Custom Domain Settings on GitHub"/>
+  </center>
+  
 4. Visit your new domain! Keep in mind, you may have to wait up to 24 hours for all your changes to take effect. Don’t do this right before your next blog post is due.
 
 
