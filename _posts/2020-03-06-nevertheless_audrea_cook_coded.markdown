@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Nevertheless, Audrea Cook Coded"
-date:       2020-03-06 23:43:41 +0000
+date:       2020-03-06 18:43:42 -0500
 permalink:  nevertheless_audrea_cook_coded
 ---
 
