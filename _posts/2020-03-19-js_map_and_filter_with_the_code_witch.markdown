@@ -20,8 +20,8 @@ It’s the first day of spring! Yay for baby animals, and bumblebees, and flower
 
 </center>
 
-Despite the snow and the fact that social distancing is keeping my husband and I cooped up inside, my brain keeps wandering outdoors. While I was supposed to be planning this blog post, I was instead browsing Burpee’s online catalog and rapidly filling my shopping cart.  \
- \
+Despite the snow and the fact that social distancing is keeping my husband and I cooped up inside, my brain keeps wandering outdoors. While I was supposed to be planning this blog post, I was instead browsing Burpee’s online catalog and rapidly filling my shopping cart. 
+
 So I can go upstairs and brag about how productive and NOT distracted I was today, I’m making the executive decision to use that shopping cart to learn about JavaScript’s `.map()` and `.filter()` methods. Two birds, one stone, baby!
 
 Let’s start off with our shopping cart, which we’ll display as an array of objects. Each object represents a packet of seeds.
