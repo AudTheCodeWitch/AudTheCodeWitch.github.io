@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "COVIDiary - a Rails/React Project"
-date:       2020-03-26 19:36:32 +0000
+date:       2020-03-26 15:36:33 -0400
 permalink:  covidiary_-_a_rails_react_project
 ---
 
