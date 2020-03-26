@@ -58,6 +58,7 @@ Essential Features
 * Diary entries
 * Private/public settings
 * Export/sharing tools
+
 ## Coming Up
 Next week, we’ll officially get started! We’ll create our repo and start building out the framework of our app! If you want to build along with me, make sure you have [Ruby](https://www.ruby-lang.org/en/documentation/installation/), [Rails](https://gorails.com/setup/), and [Create React App](https://github.com/facebook/create-react-app) set up in your local environment. See you then! Until then, stay healthy, and stay home!
 
