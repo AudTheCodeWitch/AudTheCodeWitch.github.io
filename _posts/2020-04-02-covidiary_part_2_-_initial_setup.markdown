@@ -92,5 +92,5 @@ Now, we’ll clone our GitHub repositories into their new homes on our local env
 
 We now have everything we need to hit the ground running. Next week, we’ll focus on building out the backend and structuring the PostgreSQL database. In the meantime, keep learning, wash your hands, and stay home! I’m sending you love and virtual (germ-free) hugs.
 <center>
-<img src="https://media.giphy.com/media/GHwokG1NqNmms/source.gif" alt="Virtual Hugs"></img>
+<img src="https://media.giphy.com/media/GHwokG1NqNmms/source.gif" alt="Virtual Hugs">
 </center>
