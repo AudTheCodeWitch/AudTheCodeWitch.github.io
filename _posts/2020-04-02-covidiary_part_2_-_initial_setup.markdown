@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "COVIDiary Part 2 - Initial Setup"
-date:       2020-04-02 21:49:43 +0000
+date:       2020-04-02 17:49:44 -0400
 permalink:  covidiary_part_2_-_initial_setup
 ---
 
