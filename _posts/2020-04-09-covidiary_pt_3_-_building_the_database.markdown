@@ -197,7 +197,7 @@ Woo! We have a database! Unfortunately, it’s empty. Let’s fix that by seedin
 <img alt="Don't eat the seeds" src="https://media.giphy.com/media/7Z71Z76pCC8Za/giphy.gif">
 </center>
 
-First, we need to add the [Faker gem](https://github.com/faker-ruby/faker) so we can easily populate the database with random information. Add  `gem ‘faker’` to your Gemfile and run `bundle install` in your terminal. Next, open up your `seeds.rb` file. At the very top, we need to add `require ‘Faker’` so our new gem will work. 
+First, we need to add the [Faker gem](https://github.com/faker-ruby/faker) so we can easily populate the database with random information. Add  `gem ‘faker’` to your Gemfile and run `bundle install` in your terminal. Next, open up your `seeds.rb` file. At the very top, we need to add `require ‘faker’` so our new gem will work. 
 
 We are going to create 10 users with 3 entries each, using loops.
 
