@@ -68,6 +68,8 @@ You should see something along these lines:
 
 Now, open that `create_users` migration file you just created (the first one in the screenshot). We’re going to add some information to our User table.
 
+* Update 4.24.2020 - I changed the boolean name, `essential?` to reflect best practices. You can see my explanation [here](https://www.codewitch.dev/covidiary_pt_4_5_-_database_fixes). *
+
 ```
 class CreateUsers < ActiveRecord::Migration[6.0]
 
@@ -91,7 +93,7 @@ class CreateUsers < ActiveRecord::Migration[6.0]
 
       t.string :occupation
 
-      t.boolean :essential?
+      t.boolean :is_essential
 
       t.datetime :isolation_start
 
@@ -148,6 +150,8 @@ end
 
 Now, let’s add some extra information to our `create_entries` migration:
 
+* Update 4.24.2020 - I changed the boolean name, `symptoms_present?` to reflect best practices. I also added the boolean, `is_public`. You can see my explanation [here](https://www.codewitch.dev/covidiary_pt_4_5_-_database_fixes). *
+
 ```
 class CreateEntries < ActiveRecord::Migration[6.0]
 
@@ -163,7 +167,7 @@ class CreateEntries < ActiveRecord::Migration[6.0]
 
       t.integer :health_rating
 
-      t.boolean :symptoms_present?
+      t.boolean :is_symptomatic
 
       t.text :health_comments
 
@@ -176,6 +180,8 @@ class CreateEntries < ActiveRecord::Migration[6.0]
       # actual diary entry
 
       t.text :diary_entry
+			
+			t.boolean :is_public, default: false
 
       t.timestamps
 
@@ -197,9 +203,11 @@ Woo! We have a database! Unfortunately, it’s empty. Let’s fix that by seedin
 <img alt="Don't eat the seeds" src="https://media.giphy.com/media/7Z71Z76pCC8Za/giphy.gif">
 </center>
 
-First, we need to add the [Faker gem](https://github.com/faker-ruby/faker) so we can easily populate the database with random information. Add  `gem ‘faker’` to your Gemfile and run `bundle install` in your terminal. Next, open up your `seeds.rb` file. At the very top, we need to add `require ‘faker’` so our new gem will work. 
+First, we need to add the [Faker gem](https://github.com/faker-ruby/faker) so we can easily populate the database with random information. Add  `gem ‘faker’` to your Gemfile and run `bundle install` in your terminal. Next, open up your `seeds.rb` file. At the very top, we need to add `require ‘Faker’` so our new gem will work. 
 
 We are going to create 10 users with 3 entries each, using loops.
+
+*Update 4.24.2020 - I updated the boolean names and added code for the `ispublic` boolean. You can see my explanation [here](https://www.codewitch.dev/covidiarypt45-databasefixes). *
 
 ```
 # create 10 Users
@@ -218,7 +226,7 @@ We are going to create 10 users with 3 entries each, using loops.
 
       occupation: Faker::Job.title,
 
-      essential?: Faker::Boolean.boolean,
+      is_essential: Faker::Boolean.boolean,
 
       isolation_start: Faker::Date.between(from: 3.months.ago, to: Date.today),
 
@@ -232,7 +240,7 @@ We are going to create 10 users with 3 entries each, using loops.
 
         health_rating: Faker::Number.between(from: 1, to: 5),
 
-        symptoms_present?: Faker::Boolean.boolean,
+        is_symptomatic: Faker::Boolean.boolean,
 
         health_comments: Faker::Lorem.paragraphs(number: 1),
 
@@ -241,6 +249,8 @@ We are going to create 10 users with 3 entries each, using loops.
         mental_health_comments: Faker::Lorem.paragraphs(number: 1),
 
         diary_entry: Faker::Lorem.paragraphs(number: 4),
+				
+				is_public: Faker::Boolean.boolean,
 
         user_id: user.id)
 
