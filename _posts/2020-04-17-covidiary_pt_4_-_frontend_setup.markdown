@@ -60,7 +60,7 @@ yarn add react-router-dom
 
 In `src/index.js`:
 
-```
+```javascript
 
 import { Router } from 'react-router-dom'
 
@@ -77,7 +77,7 @@ yarn add redux react-redux redux-thunk
 
 In `src/index.js`:
 
-```
+```javascript
 
 import { createStore, applyMiddleware, compose } from 'redux';
 
@@ -96,7 +96,7 @@ import { Provider } from 'react-redux';
 
 We’re using Redux to manage the state of our application. First, we need to create a store in `src/index.js`.
 
-```
+```javascript
 
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
@@ -110,7 +110,7 @@ let store = createStore(userReducer, composeEnhancers(applyMiddleware(thunk)));
 
 In the `render()` section, we need to wrap `<App />` in `<Provider />` so our components can access the store we just created.
 
-```
+```javascript
 
 ReactDOM.render(
 
@@ -138,7 +138,7 @@ That’s because we haven’t created our `userReducer` yet. Let’s do that now
 
 In `src/reducers/userReducer.js`, let’s stub out our reducer function. We’ll worry about building it up later.
 
-```
+```javascript
 
 export default function userReducer(state = {users: []}, action) {
 
@@ -150,7 +150,7 @@ export default function userReducer(state = {users: []}, action) {
 
 Let’s import our new reducer in `src/index.js`
 
-```
+```javascript
 
 import userReducer from './reducers/userReducer'
 
