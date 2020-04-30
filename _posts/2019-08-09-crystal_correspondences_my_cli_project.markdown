@@ -31,7 +31,7 @@ Another issue I encountered was with scraping the website. While scraping the in
 
 
 To access the information I wanted required a bit of creativity and a lot of trial and error: 
-```
+```ruby
 if properties_text.include?('Color:')
         color_array = properties_text.split('Color:')[1].strip.split(', ')
       else
@@ -50,7 +50,6 @@ Though I am submitting my CLI Project this evening, I in no way think of my gem 
 
 ## Teamwork Makes the Dream Work
 Though I am immensely proud of my progress this week, I would be remiss if I did not mention my fantastic support system. Without my family, the awesome members of my GitIt-Togthr cohort, and my coaches, Morgan and Talia, I would have been completely overwhelmed by this project. Thanks, guys. Y’all are the real MVPs.
-<center><iframe src="https://giphy.com/embed/jS2tfbvc1fksIZKWP5" width="480" height="392" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
 
 
 ## Check It Out
