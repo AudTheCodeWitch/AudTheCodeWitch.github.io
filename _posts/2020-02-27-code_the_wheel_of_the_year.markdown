@@ -30,7 +30,7 @@ Because the Wheel of the Year is an observation of the seasons, the holidays dif
 
 We’ll use an `if` statement in our `#hemisphere` method. Let’s quickly look at the basic syntax:
 
-```
+```ruby
 
 if condition is met
 
@@ -42,7 +42,7 @@ end
 
 We can also add an `else` to our statement:
 
-```
+```ruby
 
 if condition is met
 
@@ -58,7 +58,7 @@ end
 
 If we need more than two options, the `elsif` comes in handy:
 
-```
+```ruby
 
 if condition is met
 
@@ -92,7 +92,7 @@ Before we launch into the code, let’s talk about `case` statements and ternary
 
 The ternary operator is used to write simple, one-line `if` statements. The syntax looks like this:
 
-```
+```ruby
 
 condition ? return-this-if-true : return-this-if-false
 
@@ -109,7 +109,7 @@ condition ? return-this-if-true : return-this-if-false
 
 `case` statements are used to simplify really long `if` statements. When your `if` statement has three or more `elsif's`, consider switching to a `case` statement. Let’s look at the syntax:
 
-```
+```ruby
 
 case condition
 
