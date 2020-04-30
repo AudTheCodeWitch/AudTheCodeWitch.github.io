@@ -94,7 +94,7 @@ The ternary operator is used to write simple, one-line `if` statements. The synt
 
 ```ruby
 
-condition ? return-this-if-true : return-this-if-false
+# condition ? return-this-if-true : return-this-if-false
 
 # Here’s a quick example:
 
@@ -111,33 +111,33 @@ condition ? return-this-if-true : return-this-if-false
 
 ```ruby
 
-case condition
+# case condition
 
-when result-1
+# when result-1
 
-    return this code
+#     return this code
 
-when result-2
+# when result-2
 
-    return this code
+#     return this code
 
-when result-3
+# when result-3
 
-    return this code
+#     return this code
 
-when result-4
+# when result-4
 
-    return this code
+#     return this code
 
-when result-5
+# when result-5
 
-    return this code
+#     return this code
 
-else
+# else
 
-    return this code
+#     return this code
 
-end
+# end
 
 # Quick example:
 
