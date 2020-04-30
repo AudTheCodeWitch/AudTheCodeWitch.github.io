@@ -54,7 +54,7 @@ Right now, your blog is built using the Jekyll version of Start Bootstrap’s Cl
 
 Flatiron’s Blog Settings page has a small text box for your about me, but you can add as much as you want by editing the `about.html` file in your repo directly. So you don’t mess up the Jekyll styling, leave the first few lines like this:
 
-```
+```html
 ---
 
 layout: page
