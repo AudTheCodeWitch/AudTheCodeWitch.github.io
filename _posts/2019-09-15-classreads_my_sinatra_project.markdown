@@ -40,13 +40,17 @@ Overall, this was a challenging project. I ran into many issues throughout the w
 
 Because I chose to have two different user types, my app required a few extra checks when loading a page. Students could see and do some things, while teachers could see and do other things on the same page. For example, students can only edit their own reviews, but teachers can edit and delete any review. This required a few careful if statements, like the following:
 
-```
+```ruby
 <% @book.reviews.each do |r| %>
     <li><h4><%= r.student.name %> gives this book <%= r.rating %> stars!</h4>
       <p><%= r.review %></p>
       <% if current_user.username == r.student.username || session[:role] == 'teacher' %>
         <ul class="edit">
-          <li><a href="/books/<%= @book.id %>/<%= @book.slug %>/reviews/<%=r.id %>/edit"><button type="button">Edit Review</button></a></li>
+          <li>
+            <a href="/books/<%= @book.id %>/<%= @book.slug %>/reviews/<%=r.id %>/edit">
+                <button type="button">Edit Review</button>
+            </a>
+          </li>
           <li><form action="/books/<%= @book.id %>/<%= @book.slug %>/reviews/<%= r.id %>" method="post">
             <input type="hidden" name="_method" value="delete">
             <button type="submit">Delete Review</button>
@@ -59,7 +63,7 @@ Because I chose to have two different user types, my app required a few extra ch
 
 This project was as much a lesson in debugging as it was in building a MVC app. Just when I thought my app was running smoothly, I would discover a new issue. Some were simple styling fixes, like making sure all the buttons looked the same and that forms had a standard format. Others, like the book title one described above, required much more brainpower to solve. I found that when I deleted a book or student from the database, it did not always delete the associated reviews. To solve this, I had to add a few lines of code to my delete paths:
 
-```
+```ruby
 delete '/books/:id/:slug' do
     @book = Book.find_by_id(params[:id])
     @book.reviews.each {|r| r.destroy}
