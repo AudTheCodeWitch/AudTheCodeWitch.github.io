@@ -37,7 +37,7 @@ Leave it to me to dream up an app that is far more complicated than the project 
 
 Because I wanted users to be able to select colors and dynamically design their blocks, my first and greatest challenge was to develop what amounts to a pixel art editor. I initially attempted to use HTML5’s `<canvas>` element, but I quickly realized I was in over my head. While I did find a tutorial that would help walk me through the setup, I wanted to pursue a method I could better understand (and thus, explain). Instead, I built the block template by writing a Javascript function that created a series of nested `<div>` elements. I then used CSS styling to keep my grid square.
 
-```
+```javascript
 
 const createBlankBlock = function () {
 
@@ -83,7 +83,7 @@ const createBlankBlock = function () {
 
 For the color pickers, I imported jscolor, a Javascript library specifically designed for this purpose. I also wrote a function called `setColorPixel()` that fires whenever the user clicks on a box in the grid. When the blocks are initially posted to the database, I used three separate Javascript classes, `User`, `Block`, and `Pixel` to format the data. The block constructor calls on a function within the class which, in turn, creates all 625 pixels.
 
-```
+```javascript
 
 class Block {
 
@@ -132,7 +132,7 @@ After a mini dance party to celebrate the successful creation of my block genera
 
 I returned to my `createBlankBlock()` function. To make it work in multiple parts of my app, I changed it to take in a `location` argument. I also added some conditional logic so it would only add the default class and event listeners to the block template at the top of the page, leaving the rendered blocks unclickable.
 
-```
+```javascript
 
 const createBlankBlock = function (location) {
 
@@ -186,7 +186,7 @@ const createBlankBlock = function (location) {
 
 I then wrote a `colorPixels()` function that accepted two arguments, the new `blank` block, and the array of `pixels`. This function loops through the array and changes the background color of the pixels accordingly.
 
-```
+```javascript
 
 const colorPixels = function(blank, pixels) {
 
