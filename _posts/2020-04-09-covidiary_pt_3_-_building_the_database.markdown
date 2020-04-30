@@ -70,7 +70,7 @@ Now, open that `create_users` migration file you just created (the first one in 
 
 * Update 4.24.2020 - I changed the boolean name, `essential?` to reflect best practices. You can see my explanation [here](https://www.codewitch.dev/covidiary_pt_4_5_-_database_fixes). *
 
-```
+```ruby
 class CreateUsers < ActiveRecord::Migration[6.0]
 
   def change
@@ -130,7 +130,7 @@ rails g resource entry user:references
 
 By including `user:references`, Rails did some extra configuration for us. Your `models/entry.rb` file should look like this:
 
-```
+```ruby
 class Entry < ApplicationRecord
 
   belongs_to :user
@@ -140,7 +140,7 @@ end
 
 We still need to add the corresponding `has_many` association in the `models/user.rb` file, like this:
 
-```
+```ruby
 class User < ApplicationRecord
 
   has_many :entries
@@ -152,7 +152,7 @@ Now, let’s add some extra information to our `create_entries` migration:
 
 * Update 4.24.2020 - I changed the boolean name, `symptoms_present?` to reflect best practices. I also added the boolean, `is_public`. You can see my explanation [here](https://www.codewitch.dev/covidiary_pt_4_5_-_database_fixes). *
 
-```
+```ruby
 class CreateEntries < ActiveRecord::Migration[6.0]
 
   def change
@@ -209,7 +209,7 @@ We are going to create 10 users with 3 entries each, using loops.
 
 *Update 4.24.2020 - I updated the boolean names and added code for the `ispublic` boolean. You can see my explanation [here](https://www.codewitch.dev/covidiarypt45-databasefixes). *
 
-```
+```ruby
 # create 10 Users
 
 10.times do
