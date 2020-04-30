@@ -50,7 +50,7 @@ Because of this confusion, I first built a static app populated by dummy data. E
 
 I focused on rendering the completed blocks. First, I created a `cardsReducer` and planned out a few actions. I figured out how to make the delete button work. After that, I configured my Redux store so I could `fetch` completed blocks from the backend.
 
-```
+```javascript
 
 function cardsReducer(state = { all: [] }, action) {
 
@@ -92,7 +92,7 @@ function cardsReducer(state = { all: [] }, action) {
 
 I gradually worked up in complexity until I was left with creating a new block and storing color changes. This is where things got super confusing for me. Which component should be responsible for color changes? Does that go in local state or the store? Ultimately, I realized this information belonged in the store so I could easily create the data I needed to save blocks to the backend. For this, we needed another reducer, `blockTemplateReducer`, and the actions `ADD_PIXEL`, `COLOR_PIXEL`, and `CHANGE_COLOR`. The `ADD_PIXEL` action sends the pixel data to the store, and the others focus on updating that store. `ADD_PIXEL` is dispatched in the `Pixel.js` `componentDidMount()`:
 
-```
+```javascript
 
 let x = this.props.column + 1;
 
