@@ -17,7 +17,7 @@ This time, I enrolled in an alternative licensure program for elementary educati
 
 I loved my students. It was such a joy to celebrate their successes and support them through their struggles. One of my proudest moments was seeing the lightbulb go off when I explained that, “No, honey, black and white pictures from the olden days aren’t that way because EVERYTHING was black and white in real life. They just didn’t have color cameras yet.” Seeing an entire classroom of tiny humans realize that their great-great-grandparents didn’t live in the boring Kansas of The Wizard of Oz made my entire teaching career worth it. 
 
-<center><iframe src="https://giphy.com/embed/13xHqoOQOdFu5a" width="480" height="454" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+<center><img alt="Kramer's mind is blown" src="https://media.giphy.com/media/OK27wINdQS5YQ/source.gif"></center>
 
 I also loved my coworkers. I was blessed with the best teammate ever (she’s coming over for dinner tonight), and the rest of the teaching staff was equally amazing. They taught me the value of solid professional relationships, how to recognize when someone needed extra support, and how to graciously accept help (even when I was cranky and didn’t want it). I will be forever grateful for the lessons my teaching family taught me. 
 
@@ -25,9 +25,9 @@ Despite the many wonderful people involved in my teaching career, I quickly felt
 
 This past April, something magical happened. I traveled to Silicon Valley on a business trip with my technical writer husband. While he spent his days working at the Clover headquarters, I got to explore the area. The most amazing thing happened: I found a bunch of nerds! They were Just. Like. Me. People were walking around with cool hair, expressive outfits, classic novels, and fancy-pants computers, all while sipping their tasty bubble tea.
 
-<center><iframe src="https://giphy.com/embed/XBucfR3IWmVLa" align="center" width="480" height="274" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></center>
+<center><img alt="The Good Place" src="https://media3.giphy.com/media/iJ2cRDeQkcPXZiHh53/giphy.gif?cid=ecf05e47225a06fc6de2503b35d8ec91bda7cc0b97ee8a62&rid=giphy.gif"></center>
 
- We went for dinner with my husband’s team one evening, and they were simply the most encouraging bunch of strangers I’ve ever met. Despite my very limited technical knowledge, they made me believe I belonged in this space with them. I could (and should!!!) join them on this magical technical adventure. I returned home excited and inspired, and I’ve kept up the momentum ever since. 
+We went for dinner with my husband’s team one evening, and they were simply the most encouraging bunch of strangers I’ve ever met. Despite my very limited technical knowledge, they made me believe I belonged in this space with them. I could (and should!!!) join them on this magical technical adventure. I returned home excited and inspired, and I’ve kept up the momentum ever since. 
 
 Now I’m here, a full-time Software Engineering student at Flatiron School. I’m finally “answering the call” on my personal heroine’s journey, and I can’t wait to see what the universe throws at me next. 
 
