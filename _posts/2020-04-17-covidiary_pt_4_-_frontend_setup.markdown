@@ -108,7 +108,7 @@ let store = createStore(userReducer, composeEnhancers(applyMiddleware(thunk)));
 
 ```
 
-In the `render()` section, we need to wrap `&lt;App />` in `&lt;Provider />` so our components can access the store we just created.
+In the `render()` section, we need to wrap `<App />` in `<Provider />` so our components can access the store we just created.
 
 ```
 
@@ -116,11 +116,11 @@ ReactDOM.render(
 
    {/*Wrap entire app in provider to give all components access to the store*/}
 
-    &lt;Provider store={store}>
+    <Provider store={store}>
 
-        &lt;App />
+        <App />
 
-    &lt;/Provider>,
+    </Provider>,
 
   document.getElementById('root')
 
