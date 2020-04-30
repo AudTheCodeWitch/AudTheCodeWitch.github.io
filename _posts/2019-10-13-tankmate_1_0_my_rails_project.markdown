@@ -25,7 +25,7 @@ I also used Devise for the first time. Devise is a powerful tool that let me bui
 
 One aspect of TankMate I am particularly proud of is my use of scope methods in my `Maintenance` class. I wanted users to be able to sort maintenance tasks by different criteria, but to do so, I had to add a ton of logic to my controller. As you know, this goes against the idea of Separation of Concerns. With a little refactoring and the use of scope methods, I cleaned up the controller and preserved the use of my sorting function. Here’s what my controller looks like now:
 
-```
+```ruby
 
 helper_method :params
 
@@ -80,7 +80,7 @@ helper_method :params
 
 Here are the scope methods, stored in the Maintenance class, where they belong:
 
-```
+```ruby
 
 def self.by_tank(tank)
 
@@ -134,7 +134,7 @@ def self.by_tank(tank)
 
 For some reason, I really struggled with forms on this project. I had particular difficulty wiring up my “Schedule Maintenance” form. This is a nested form that leverages the many-to-many relationship between `Tanks` and `Tasks` using `Maintenance` as a join table. With one form, I wanted users to be able to schedule a maintenance task for multiple tanks at the same time. For example, a user may wish to feed the fish in three tanks, but only test the water in one. Instead of submitting the maintenance four times, however, the user only needs to fill it out once per task. As a result, it took me quite a long time to figure out just how to code the `create` method in my `MaintenancesController`. It is probably one of the most unique parts of my app, so let’s step through it:
 
-```
+```ruby
 
 def create
 
@@ -142,7 +142,7 @@ def create
 
 If the user does not select a tank, throw an error:
 
-```
+```ruby
 
   if maintenance_params[:tank_id].length == 1
 
@@ -160,7 +160,7 @@ If the user does not select a tank, throw an error:
 
 For each selected tank, create a new `Maintenance` instance:
 
-```
+```ruby
 
   else
 
@@ -190,7 +190,7 @@ end
 
 While the `create` method handles the `Tank` and `Maintenance` instances, the `Task` instances are handled within the form itself:
 
-```
+```ruby
 
 <fieldset>
 
