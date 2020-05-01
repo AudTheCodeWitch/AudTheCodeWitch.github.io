@@ -22,7 +22,7 @@ This week’s post **was** super duper long, and it covered lots and lots of cod
   <img src="https://media.giphy.com/media/i5yobxd9zkMBq/source.gif" alt="No more books">
 </center>
 
-If you want to skip ahead, you can check out my progress in the [CD-API ](https://github.com/AudTheCodeWitch/COVIDiary-api)and [CD-Client ](https://github.com/AudTheCodeWitch/COVIDiary-client)repositories on GitHub. I’ll continue working on the project as these blog posts release over the coming weeks.
+If you want to skip ahead, you can check out my progress in the [CD-API ](https://github.com/AudTheCodeWitch/COVIDiary-api) and [CD-Client ](https://github.com/AudTheCodeWitch/COVIDiary-client) repositories on GitHub. I’ll continue working on the project as these blog posts release over the coming weeks.
 
 Today, we’re going to work on the back end. By the end of today, we will have all our backend routing configured and ready to go.
 
@@ -33,7 +33,7 @@ Today, we’re going to work on the back end. By the end of today, we will have 
 Open your `CD-API` repository. 
 
 
-## 1. Namespace Routes
+## Namespace Routes
 
 We’ll start by configuring our routes. We want to add `/api` to our backend routes so we can better keep things straight. 
 
