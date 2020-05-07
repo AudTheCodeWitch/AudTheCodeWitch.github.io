@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "COVIDiary pt. 6 - Formatting Data"
-date:       2020-05-07 19:54:51 +0000
+date:       2020-05-07 15:54:52 -0400
 permalink:  covidiary_pt_6_-_formatting_data
 ---
 
