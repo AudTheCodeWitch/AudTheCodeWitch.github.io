@@ -24,7 +24,7 @@ This week, we’re working on the back end. By the end of today, we will:
 Are you ready? Let’s do this.
 
 <center>
-  <img alt="Let’s do this!" src=”https://media.giphy.com/media/JykvbWfXtAHSM/giphy.gif”>
+  <img alt="Let’s do this!" src="https://media.giphy.com/media/JykvbWfXtAHSM/giphy.gif">
 </center>
 
 Open your `CD-API` repository. 
@@ -68,7 +68,7 @@ That’s it! Now that we’ve added both gems, let’s install them by running `
 We need a serializer for both our `Entries` and our `Users`. 
 
 <center>
-  <img alt="Get that cereal!" src=”https://media.giphy.com/media/3o85xKRIokv92FRo52/source.gif”>
+  <img alt="Get that cereal!" src="https://media.giphy.com/media/3o85xKRIokv92FRo52/source.gif">
 </center>
 
 With Fast JSON API, these are easy to create with the `rails g serializer` command. Let’s do that now. In your terminal, enter the following:
