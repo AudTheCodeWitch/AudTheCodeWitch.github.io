@@ -332,7 +332,7 @@ class Api::EntriesController < ApplicationController
 				
         :is_public,
 				
-				:created_at
+	:created_at
 
     )
 
