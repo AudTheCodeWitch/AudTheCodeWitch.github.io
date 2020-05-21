@@ -61,7 +61,7 @@ We’ll be working solely in `/src/App.js` today. We will write two separate, bu
       });
 
     
-	
+
     // fetch the first user's entries
 		
     fetch('http://localhost:3000/api/users/1/entries')
