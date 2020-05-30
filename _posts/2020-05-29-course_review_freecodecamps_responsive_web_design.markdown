@@ -55,19 +55,19 @@ I chose to complete these projects using my own editor (RubyMine) instead of Cod
 Here are my submissions for the 5 projects. Click the links to see them in action. Note that any forms don't actually submit anywhere.
 
 1.  Tribute Page - [A Tribute to Mequa](https://mequa-tribute-fcc.herokuapp.com/)
-<center><img width=480 src='https://i.imgur.com/CFmGtbj.png' alt='Screenshot of Mequa tribute page'></center>
+<center><img width='480' height='auto' src='https://i.imgur.com/CFmGtbj.png' alt='Screenshot of Mequa tribute page'></center>
 
 2.  Survey Form - [Aquarium Survey](https://aquarium-survey-fcc.herokuapp.com/)
-<center><img width=480 src='https://i.imgur.com/QfOSIYH.png' alt='Screenshot of aquarium survey page'></center>
+<center><img width='480' height='auto' src='https://i.imgur.com/QfOSIYH.png' alt='Screenshot of aquarium survey page'></center>
 
 3.  Product Landing Page - [Code Witch's Tarot](https://tarot-product-landing-fcc.herokuapp.com/)
-<center><img width=480 src='https://i.imgur.com/i3Ttona.png' alt='Screenshot of tarot product landing page'></center>
+<center><img width='480' height='auto' src='https://i.imgur.com/i3Ttona.png' alt='Screenshot of tarot product landing page'></center>
 
 4.  Technical Documentation Page - [Ruby for Basic Witches](https://ruby-docs-fcc.herokuapp.com/)
-<center><img width=480 src='https://i.imgur.com/1MRHKAh.png' alt='Screenshot of Ruby documentation page'></center>
+<center><img width='480' height='auto' src='https://i.imgur.com/1MRHKAh.png' alt='Screenshot of Ruby documentation page'></center>
 
 5.  Personal Portfolio Webpage - [The Code Witch](https://portfolio-page-fcc.herokuapp.com/)
-<center><img width=480 src='https://i.imgur.com/IMl2XN8.png' alt='Screenshot of personal portfolio page'></center>
+<center><img width='480' height='auto' src='https://i.imgur.com/IMl2XN8.png' alt='Screenshot of personal portfolio page'></center>
 
 ## Final Thoughts
 Overall, I think freeCodeCamp has created an excellent course. Did it take me 300 hours to complete? Definitely not. Would it take that long for an absolute beginner? Possibly. Either way, the Responsive Web Design course is a solid review for experienced devs, and a great introductory course for code newbies.
