@@ -5,12 +5,15 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
+  hidden: true
 - type: text
   name: title
   label: title
 - type: datetime
   name: date
   label: date
+  default: now
 - type: text
   name: permalink
   label: permalink
