@@ -25,7 +25,7 @@ What are we doing? We’re planning our website layout. We’ll build a sitemap 
 
 I’ve made a few websites now, and, due to project deadlines, they were largely chaotic, head-long rushes to completion. It was both stressful and terribly inefficient. As a writer, I _never_ worked without an outline. Why would I design an application without creating a plan?
 
-By pausing to get the broad strokes of our application on paper, we’ll free up time, later on, to hone and fine-tune our work. We’ll be able to visualize how a user might interact with our app, and we can use that to inform our design choices. We will see, at a glance, which components will be used over and over.
+By pausing to get the broad strokes of our application on paper, we’ll free up time, later on, to hone and fine-tune our work. We’ll be able to visualize how a user might interact with our app, and we can use that to inform our design choices. We will see, at a glance, which React components will be used over and over.
 
 ## Drafting the Sitemap
 
