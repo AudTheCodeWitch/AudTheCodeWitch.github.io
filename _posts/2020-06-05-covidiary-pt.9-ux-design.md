@@ -43,7 +43,7 @@ A wireframe is a very basic sketch of a webpage. Having never actually done wire
 
 To sketch my wireframes, I grabbed a stack of 3x5 index cards and a marker. When constructing wireframes, many designers use a felt-tipped marker to prevent them from getting too detailed. I used one index card per page. I drew the wireframe on the blank side, and I used the lined side for any quick notes.
 
-<p align='center'> <img src='/uploads/home-wireframe.jpg' alt='Wireframe for COVIDiary home page' width=350px> </p>
+<p align='center'> <img src='/uploads/home-wireframe.jpg' alt='Wireframe for COVIDiary home page' width='350'> </p>
 
 As you can see, the design for my home page is very simple. At a glance, I can see I want a few images (indicated by the boxed-x placeholder), a brief page intro, and a preview of three recent entries. I also know I want a horizontal navigation bar, and I have a general feel for what the footer should look like. After completing the rest of the wireframes, I can also tell which components will be used over and over, like the diary entries, for example.
 
