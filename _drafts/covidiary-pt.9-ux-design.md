@@ -33,19 +33,25 @@ Put simply, a sitemap is a list of pages on a website. There are [different type
 
 You can do this all on paper, but I used diagrams.net. First, I created a box for each page I knew I wanted in my application. Then, I rearranged the boxes and connected them with arrows that indicate the user flow. Finally, I grouped the navigation and footer links together, as they will appear on every page.
 
-![COVIDiary Sitemap](/uploads/sitemap.png "COVIDiary Sitemap")
-
+<p align='center'>
+  <img src='/uploads/sitemap.png' alt='COVIDiary Sitemap'>
+</p>
+  
 ## Drawing the Wireframes
 
 A wireframe is a very basic sketch of a webpage. Having never actually done wireframing myself, I watched a few videos and read some tutorials before I began. There are tons of great resources out there, but it seemed the bottom line with wireframes is to keep it simple.
 
 To sketch my wireframes, I grabbed a stack of 3x5 index cards and a marker. When constructing wireframes, many designers use a felt-tipped marker to prevent them from getting too detailed. I used one index card per page. I drew the wireframe on the blank side, and I used the lined side for any quick notes.
 
-![Wireframe for COVIDiary home page](/uploads/home-wirefreame.jpg "Wireframe-Home")
+<p align='center'>
+  <img src='/uploads/home-wireframe.jpg' alt='Wireframe for COVIDiary home page'>
+</p>
 
 As you can see, the design for my home page is very simple. At a glance, I can see I want a few images (indicated by the boxed-x placeholder), a brief page intro, and a preview of three recent entries. I also know I want a horizontal navigation bar, and I have a general feel for what the footer should look like. After completing the rest of the wireframes, I can also tell which components will be used over and over, like the diary entries, for example.
 
-![Wireframes for COVIDiary app](/uploads/wireframes.jpg "Wireframes")
+<p align='center'>
+  <img src='/uploads/wireframes.jpg' alt='Wireframes for COVIDiary app'>
+</p>
 
 Remember, these wireframes are your outline. They are loose sketches, and you aren’t married to any specific idea. Don’t stress too much over your designs at first. Just get some thoughts on paper. We’ll refine our ideas once we start coding.
 
