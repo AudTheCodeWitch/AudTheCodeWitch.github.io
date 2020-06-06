@@ -2,7 +2,7 @@
 layout: post
 date: 2020-06-05 19:56:17 +0000
 title: COVIDiary pt. 9 - UX Design
-permalink: covidiary_pt_9-_-_ux_design
+permalink: covidiary_pt_9_-_ux_design
 
 ---
 Welcome to Part 9 of the COVIDiary project! If you’re just joining us or missed a post, here’s what we’ve done so far:
