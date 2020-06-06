@@ -29,9 +29,15 @@ By pausing to get the broad strokes of our application on paper, we’ll free up
 
 ## Drafting the Sitemap
 
-Put simply, a sitemap is a list of pages on a website. There are [different types of sitemaps](https://en.wikipedia.org/wiki/Site_map) for different uses, but today we’re just building an outline for planning purposes.
+Put simply, a sitemap is a list of pages on a website. There are [different types of sitemaps](https://en.wikipedia.org/wiki/Site_map) for different uses, but today we’re just building an outline for planning purposes. From a development perspective, this is a crucial step. 
 
-You can do this all on paper, but I used diagrams.net. First, I created a box for each page I knew I wanted in my application. Then, I rearranged the boxes and connected them with arrows that indicate the user flow. Finally, I grouped the navigation and footer links together, as they will appear on every page.
+When designing your sitemap, your user should be at the forefront of your mind. What are the most important features to the user? How many clicks do they need to make to get from one page to the next? Which links should always be available? Which pages should be protected with a login?
+
+You can do this all on paper, but I used [diagrams.net](https://www.diagrams.net/), which is useful for all sorts of diagrams, not just a sitemap. I also highly recommend it when designing your database structure.
+
+Let's get started.
+
+First, I created a box for each page I knew I wanted in my application. Then, I rearranged the boxes and connected them with arrows that indicate the user flow. Finally, I grouped the navigation and footer links together, as they will appear on every page.
 
 <p align='center'>
 <img src='/uploads/sitemap.png' alt='COVIDiary Sitemap'>
@@ -39,13 +45,19 @@ You can do this all on paper, but I used diagrams.net. First, I created a box fo
 
 ## Drawing the Wireframes
 
-A wireframe is a very basic sketch of a webpage. Having never actually done wireframing myself, I watched a few videos and read some tutorials before I began. There are tons of great resources out there, but it seemed the bottom line with wireframes is to keep it simple.
+A wireframe is a very basic sketch of a webpage. They are like a builder's set of blueprints. With a wireframe, developers are able to visualize the placement of different elements on a page.
+
+In many professional settings, a designer draws up the wireframes, and the developer writes the code that brings the plans to life. On personal projects or for smaller companies, however, we won't always have that luxury. 
+
+Having never actually made official wireframes myself, I read a few articles before I began. There are tons of great resources out there, but it seemed the bottom line with wireframes is to keep it simple.
 
 To sketch my wireframes, I grabbed a stack of 3x5 index cards and a marker. When constructing wireframes, many designers use a felt-tipped marker to prevent them from getting too detailed. I used one index card per page. I drew the wireframe on the blank side, and I used the lined side for any quick notes.
 
 <p align='center'> <img src='/uploads/home-wireframe.jpg' alt='Wireframe for COVIDiary home page' width='350'> </p>
 
 As you can see, the design for my home page is very simple. At a glance, I can see I want a few images (indicated by the boxed-x placeholder), a brief page intro, and a preview of three recent entries. I also know I want a horizontal navigation bar, and I have a general feel for what the footer should look like. After completing the rest of the wireframes, I can also tell which components will be used over and over, like the diary entries, for example.
+
+If I were collaborating with another developer, now would be a great time to seek feedback and compare notes. We could then iterate on our initial ideas until we have a set of designs we're both happy with. 
 
 <p align='center'>
 <img src='/uploads/wireframes.jpg' alt='Wireframes for COVIDiary app'>
