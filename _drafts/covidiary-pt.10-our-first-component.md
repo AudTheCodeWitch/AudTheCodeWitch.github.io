@@ -24,27 +24,21 @@ This week, we’re FINALLY writing code that will actually render in our browser
 
 Create a new file in your `src/components` folder called `Footer.js`. Because our component doesn’t need to hold state, we can keep it simple as a functional component. Let’s stub that out really quick:
 
-\`\`\`javascript
+```jsx
 
 import React from 'react';
 
 const Footer = () => {
-
-return (
-
-<div>
-
-Hello World!
-
-</div>
-
-);
-
+	return (
+		<div>
+			Hello World!
+		</div>
+    );
 };
 
 export default Footer;
 
-\`\`\`
+```
 
 ## Import the Footer
 
@@ -52,19 +46,19 @@ Let’s add our `Footer` to `App.js` so we can actually see our work in the brow
 
 In `src/App.js`
 
-\`\`\`javascript
+```jsx
 
 import Footer from './components/Footer';
 
-\`\`\`
+```
 
 Just before the closing `</div>` In the `render()` section, add our component:
 
-\`\`\`javascript
+```jsx
 
 <Footer />
 
-\`\`\`
+```
 
 In your terminal, run `yarn start`. This will open your application in the browser. Right now, it should look something like this:
 
@@ -76,91 +70,74 @@ Now that we’ve got our server up and running, let’s change that “Hello Wor
 
 First, let’s replace the `<div>` in our `render()` with `<footer>`. Then, we’ll add our logo and copyright information:
 
-\`\`\`javascript
+```jsx
 
 <footer>
+  {/*Logo link to CodeWitch blog*/}
+  <a href={'[http://codewitch.dev](http://codewitch.dev "http://codewitch.dev")'}
+  /*Opens link in new tab*/
+  target={'_blank'}
+  rel={'noopener noreferrer'}>
+  	<img src={'./CodeWitchLogo.png'} alt="AudTheCodeWitch Logo" height='50px' />
+  </a>
 
-{/*Logo link to CodeWitch blog*/}
-
-<a href={'[http://codewitch.dev](http://codewitch.dev "http://codewitch.dev")'}
-
-/*Opens link in new tab*/
-
-target={'_blank'}
-
-rel={'noopener noreferrer'}>
-
-<img src={'./CodeWitchLogo.png'} alt="AudTheCodeWitch Logo" height='50px' />
-
-</a>
-
-{/*Copyright information*/}
-
-<p>©2020 Audrea Cook</p>
+  {/*Copyright information*/}
+  <p>©2020 Audrea Cook</p>
 
 </footer>
 
-\`\`\`
+```
 
 Let’s also add links to our social media profiles. We’ll use free icons from [fontAwesome](https://fontawesome.com/). To do this, we need to install some more packages. In your terminal, run the following:
 
-\`\`\`
+```
 
 $ yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons
 
-\`\`\`
+```
 
 When that is complete, import the icons by adding the following two lines to the top of your page:
 
-\`\`\`javascript
+```jsx
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-\`\`\`
+```
 
 While we’re adding imports, let’s also bring in the react-bootstrap components we’ll be using:
 
-\`\`\`javascript
+```jsx
 
 import ListGroup from "react-bootstrap/ListGroup";
 
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
-\`\`\`
+```
 
 Now, we’re ready to add some more code to our `<footer>` element:
 
-\`\`\`javascript
+```jsx
 
 {/*Using a ListGroup to create buttons for external links*/}
-
 <ListGroup horizontal={"sm"} /*Will display horizontally vs vertically for screens size sm and up*/>
+  <ListGroupItem action /*turns item into link button*/ href='https://github.com/AudTheCodeWitch' target="_blank" rel={'noopener noreferrer'} >
+    {/*icon + text description*/}
+    <FontAwesomeIcon icon={faGithub} /> GitHub
+  </ListGroupItem>
 
-<ListGroupItem action /*turns item into link button*/ href='[https://github.com/AudTheCodeWitch](https://github.com/AudTheCodeWitch "https://github.com/AudTheCodeWitch")' target="_blank" rel={'noopener noreferrer'} >
+  <ListGroupItem action href='https://twitter.com/AudTheCodeWitch' target="_blank" rel={'noopener noreferrer'} >
+    <FontAwesomeIcon icon={faTwitter} /> @audTheCodeWitch
+  </ListGroupItem>
 
-{/*icon + text description*/}
-
-<FontAwesomeIcon icon={faGithub} /> GitHub
-
-</ListGroupItem>
-
-<ListGroupItem action href='[https://twitter.com/AudTheCodeWitch](https://twitter.com/AudTheCodeWitch "https://twitter.com/AudTheCodeWitch")' target="_blank" rel={'noopener noreferrer'} >
-
-<FontAwesomeIcon icon={faTwitter} /> @audTheCodeWitch
-
-</ListGroupItem>
-
-<ListGroupItem action href='[https://www.linkedin.com/in/audreacook/](https://www.linkedin.com/in/audreacook/ "https://www.linkedin.com/in/audreacook/")' target="_blank" rel={'noopener noreferrer'} >
-
-<FontAwesomeIcon icon={faLinkedin} /> LinkedIn
-
-</ListGroupItem>
+  <ListGroupItem action href='https://www.linkedin.com/in/audreacook/' target="_blank" rel={'noopener noreferrer'} >
+	  <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
+  </ListGroupItem>
 
 </ListGroup>
 
-\`\`\`
+```
 
 If you save and refresh your browser, the footer should now look something like this:
 
