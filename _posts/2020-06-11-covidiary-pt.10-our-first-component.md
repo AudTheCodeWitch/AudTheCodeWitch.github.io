@@ -37,7 +37,6 @@ const Footer = () => {
 };
 
 export default Footer;
-
 ```
 
 ## Import the Footer
@@ -49,7 +48,6 @@ In `src/App.js`
 ```jsx
 
 import Footer from './components/Footer';
-
 ```
 
 Just before the closing `</div>` In the `render()` section, add our component:
@@ -57,12 +55,11 @@ Just before the closing `</div>` In the `render()` section, add our component:
 ```jsx
 
 <Footer />
-
 ```
 
 In your terminal, run `yarn start`. This will open your application in the browser. Right now, it should look something like this:
 
-![](https://lh5.googleusercontent.com/WSRY_cFVtMSkldO0oQ0eouVGZxu_WmH8t-LY74BQboouZ04Ti23jyHLWyi6Nq-PyUMTHpcWkxZtOh14vmrVl9ARb3OxA6XQ6PsmDE2aNOiVqcorH91zU7L0SXVn7zqQBxdPUuGrK =624x525)
+![Footer with Hello World](/uploads/footer1.png "Footer")
 
 ## Fill in the Details
 
@@ -85,16 +82,11 @@ First, let’s replace the `<div>` in our `render()` with `<footer>`. Then, we�
   <p>©2020 Audrea Cook</p>
 
 </footer>
-
 ```
 
 Let’s also add links to our social media profiles. We’ll use free icons from [fontAwesome](https://fontawesome.com/). To do this, we need to install some more packages. In your terminal, run the following:
 
-```
-
-$ yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons
-
-```
+    $ yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons
 
 When that is complete, import the icons by adding the following two lines to the top of your page:
 
@@ -102,7 +94,6 @@ When that is complete, import the icons by adding the following two lines to the
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
-
 ```
 
 While we’re adding imports, let’s also bring in the react-bootstrap components we’ll be using:
@@ -111,7 +102,6 @@ While we’re adding imports, let’s also bring in the react-bootstrap componen
 
 import ListGroup from "react-bootstrap/ListGroup";
 import ListGroupItem from "react-bootstrap/ListGroupItem";
-
 ```
 
 Now, we’re ready to add some more code to our `<footer>` element:
@@ -133,12 +123,11 @@ Now, we’re ready to add some more code to our `<footer>` element:
 	  <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
   </ListGroupItem>
 </ListGroup>
-
 ```
 
 If you save and refresh your browser, the footer should now look something like this:
 
-![](https://lh6.googleusercontent.com/eg-tWGjA-ycmkXFn0BHyKf4yRKtofXYR_JvTC0ifMZ5UYU6btjVk1nUNJ1UWuAY3jECNFdWnaZIwxF669bpa0GSAfsrX3GRbLbIjRMgaDTJywswH2K9Mn26P-J24PUGOaYt7Rtre =624x113)
+![Footer with external links and logo](/uploads/footer2.png "Finished footer")
 
 ## Coming Up
 
