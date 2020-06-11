@@ -101,7 +101,6 @@ When that is complete, import the icons by adding the following two lines to the
 ```jsx
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 ```
@@ -111,7 +110,6 @@ While we’re adding imports, let’s also bring in the react-bootstrap componen
 ```jsx
 
 import ListGroup from "react-bootstrap/ListGroup";
-
 import ListGroupItem from "react-bootstrap/ListGroupItem";
 
 ```
@@ -134,7 +132,6 @@ Now, we’re ready to add some more code to our `<footer>` element:
   <ListGroupItem action href='https://www.linkedin.com/in/audreacook/' target="_blank" rel={'noopener noreferrer'} >
 	  <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
   </ListGroupItem>
-
 </ListGroup>
 
 ```
