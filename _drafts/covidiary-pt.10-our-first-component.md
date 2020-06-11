@@ -18,11 +18,11 @@ Welcome to Part 10 of the COVIDiary project! If you’re just joining us or miss
 * [Part 8: Make the Connection](https://www.codewitch.dev/covidiary_pt_8_-_make_the_connection)
 * [Part 9: UX Design](https://www.codewitch.dev/covidiary_pt_9_-_ux_design)
 
-This week, we’re FINALLY writing code that will render in our browser! Today, we’re going to build our \`Footer\` component. Though it’s a relatively simple piece of our application, I decided to start with it for a few reasons. First, the \`Footer\` is the only page element that will be consistent throughout our entire application. It also allows us to practice using a few tools that will be used extensively in the coming weeks. Finally, its simplicity allows us to focus on some React basics without having to worry about the more nuanced aspects.
+This week, we’re FINALLY writing code that will actually render in our browser! Today, we’re going to build our `Footer` component. Though it’s a relatively simple piece of our application, I decided to start with it for a few reasons. First, the `Footer` is the only page element that will be consistent throughout our entire application. It also gives us the opportunity to practice using a few tools that will be used extensively in the coming weeks. Finally, its simplicity allows us to focus on some React basics without having to worry about the more nuanced aspects.
 
 ## Stub the Component
 
-Create a new file in your \`src/components\` folder called \`Footer.js\`. Because our component doesn’t need to hold state, we can keep it simple as a functional component. Let’s stub that out really quick:
+Create a new file in your `src/components` folder called `Footer.js`. Because our component doesn’t need to hold state, we can keep it simple as a functional component. Let’s stub that out really quick:
 
 \`\`\`javascript
 
@@ -48,9 +48,9 @@ export default Footer;
 
 ## Import the Footer
 
-Let’s add our \`Footer\` to \`App.js\` so we can actually see our work in the browser.
+Let’s add our `Footer` to `App.js` so we can actually see our work in the browser.
 
-In \`src/App.js\`:
+In `src/App.js`
 
 \`\`\`javascript
 
@@ -58,7 +58,7 @@ import Footer from './components/Footer';
 
 \`\`\`
 
-Just before the closing \`</div>\` In the \`render()\` section, add our component:
+Just before the closing `</div>` In the `render()` section, add our component:
 
 \`\`\`javascript
 
@@ -66,15 +66,15 @@ Just before the closing \`</div>\` In the \`render()\` section, add our componen
 
 \`\`\`
 
-In your terminal, run \`yarn start\`. This will open your application in the browser. Right now, it should look something like this:
+In your terminal, run `yarn start`. This will open your application in the browser. Right now, it should look something like this:
 
-![https://lh5.googleusercontent.com/WSRY_cFVtMSkldO0oQ0eouVGZxu_WmH8t-LY74BQboouZ04Ti23jyHLWyi6Nq-PyUMTHpcWkxZtOh14vmrVl9ARb3OxA6XQ6PsmDE2aNOiVqcorH91zU7L0SXVn7zqQBxdPUuGrK](https://lh5.googleusercontent.com/WSRY_cFVtMSkldO0oQ0eouVGZxu_WmH8t-LY74BQboouZ04Ti23jyHLWyi6Nq-PyUMTHpcWkxZtOh14vmrVl9ARb3OxA6XQ6PsmDE2aNOiVqcorH91zU7L0SXVn7zqQBxdPUuGrK =624x525)
+![](https://lh5.googleusercontent.com/WSRY_cFVtMSkldO0oQ0eouVGZxu_WmH8t-LY74BQboouZ04Ti23jyHLWyi6Nq-PyUMTHpcWkxZtOh14vmrVl9ARb3OxA6XQ6PsmDE2aNOiVqcorH91zU7L0SXVn7zqQBxdPUuGrK =624x525)
 
 ## Fill in the Details
 
-Now that we’ve got our server up and running, let’s change that “Hello World” to something we actually want, shall we? From here on out, we’re working in \`components/Footer.js\`.
+Now that we’ve got our server up and running, let’s change that “Hello World” to something we actually want, shall we? From here on out, we’re working in `components/Footer.js`
 
-First, let’s replace the \`<div>\` in our \`render()\` with \`<footer>\`. Then, we’ll add our logo and copyright information:
+First, let’s replace the `<div>` in our `render()` with `<footer>`. Then, we’ll add our logo and copyright information:
 
 \`\`\`javascript
 
@@ -99,6 +99,8 @@ rel={'noopener noreferrer'}>
 <p>©2020 Audrea Cook</p>
 
 </footer>
+
+\`\`\`
 
 Let’s also add links to our social media profiles. We’ll use free icons from [fontAwesome](https://fontawesome.com/). To do this, we need to install some more packages. In your terminal, run the following:
 
@@ -128,7 +130,7 @@ import ListGroupItem from "react-bootstrap/ListGroupItem";
 
 \`\`\`
 
-Now, we’re ready to add some more code to our \`<footer>\` element:
+Now, we’re ready to add some more code to our `<footer>` element:
 
 \`\`\`javascript
 
@@ -162,8 +164,8 @@ Now, we’re ready to add some more code to our \`<footer>\` element:
 
 If you save and refresh your browser, the footer should now look something like this:
 
-![https://lh6.googleusercontent.com/eg-tWGjA-ycmkXFn0BHyKf4yRKtofXYR_JvTC0ifMZ5UYU6btjVk1nUNJ1UWuAY3jECNFdWnaZIwxF669bpa0GSAfsrX3GRbLbIjRMgaDTJywswH2K9Mn26P-J24PUGOaYt7Rtre](https://lh6.googleusercontent.com/eg-tWGjA-ycmkXFn0BHyKf4yRKtofXYR_JvTC0ifMZ5UYU6btjVk1nUNJ1UWuAY3jECNFdWnaZIwxF669bpa0GSAfsrX3GRbLbIjRMgaDTJywswH2K9Mn26P-J24PUGOaYt7Rtre =624x113)
+![](https://lh6.googleusercontent.com/eg-tWGjA-ycmkXFn0BHyKf4yRKtofXYR_JvTC0ifMZ5UYU6btjVk1nUNJ1UWuAY3jECNFdWnaZIwxF669bpa0GSAfsrX3GRbLbIjRMgaDTJywswH2K9Mn26P-J24PUGOaYt7Rtre =624x113)
 
 ## Coming Up
 
-Now that we’ve got our \`Footer\` component, we’re ready to keep building our application! Next week, we’ll tackle the \`Header\`, another component that will be shared on every page! From there, we’ll really start to bring our project to life!
+Now that we’ve got our `Footer` component, we’re ready to keep building our application! Next week, we’ll tackle the `Header`, another component that will be shared on every page! From there, we’ll really start to bring our project to life!
