@@ -5,8 +5,6 @@ title: Words Matter
 permalink: words_matter
 
 ---
-# Words Matter
-
 Earlier this week, GitHub announced they are working on changing their default branch name from `master` to `main` to show solidarity with the Black Lives Matter movement. This sparked a bit of a Twitter storm, with arguments both for and against this change.
 
 As a white, cis-gendered woman of middle-class, I haven’t felt like I had much to personally contribute to the Black Lives Matter discussion. Instead, I’ve used my platform to amplify the voices of others -- to share with, support, and encourage those who fight for an end to the systemic racism in our country.
