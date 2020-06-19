@@ -7,7 +7,7 @@ permalink: words_matter
 ---
 # Words Matter
 
-Earlier this week, GitHub announced they are working on changing their default branch name from \`master\` to \`main\` to show solidarity with the Black Lives Matter movement. This sparked a bit of a Twitter storm, with arguments both for and against this change.
+Earlier this week, GitHub announced they are working on changing their default branch name from `master` to `main` to show solidarity with the Black Lives Matter movement. This sparked a bit of a Twitter storm, with arguments both for and against this change.
 
 As a white, cis-gendered woman of middle-class, I haven’t felt like I had much to personally contribute to the Black Lives Matter discussion. Instead, I’ve used my platform to amplify the voices of others -- to share with, support, and encourage those who fight for an end to the systemic racism in our country.
 
@@ -33,7 +33,11 @@ Unfortunately, there are those who say it is, in fact, _not_ that simple. These 
 
 ## A Rebuttal
 
-Excuse me while I retrieve my eyes. They rolled so far back they got stuck behind my brain for a second.
+Excuse me while I retrieve my eyeballs. They rolled so far back they got stuck behind my brain for a second.
+
+<center>
+<img alt="Liz Lemon Eye Roll" src="https://media.giphy.com/media/BB8Gx0CaEASHu/source.gif">
+</center>
 
 I’ve got news for you. As I’ve personally proven, we can change our vocabulary. It takes a little conscious effort, at first, but it can be done. _And it isn’t even that hard._
 
@@ -51,17 +55,16 @@ So let’s start small by changing our primary GitHub branches from `master` to 
 
 In your terminal:
 
-\`\`\`shell
-
+```shell
 $ git branch -master main
-
 $ git push -u origin main
-
-\`\`\`
+```
 
 In your GitHub repository:
 
-Go to Settings → Branches. Select \`main\` from the dropdown. Click \`Update\`, confirm, and you’re done!
+Click the **Settings** tab. On the side menu, click **Branches**. Select `main` from the dropdown. Click **Update**, confirm the change, and you’re done!
+
+![How to set your default GitHub branch](/uploads/renamed-branch.jpg "Default Branch")
 
 ## A Final Thought
 
