@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-06-26 15:29:46 -0600
-title: COVIDiary pt. - Basic Header
+title: COVIDiary pt. 11 - Basic Header
 permalink: covidiary_pt_11_-_basic_header
 
 ---
