@@ -28,15 +28,16 @@ Create a new file in your `src/components` folder called `Header.js`. Add a simp
 import React from 'react';
 
 const Header = () => {
-	return (
-		<div>
-			COVIDiary
-		</div>
-	);
+  return (
+    <div>
+      COVIDiary
+    </div>
+  );
 };
 
 export default Header;
 ```
+
 ## Import the Header
 
 Let’s add our `Header` to `App.js`.
@@ -58,18 +59,13 @@ You can remove all the default React code if you’d like. I moved it into a `ma
 ```jsx
 
 <main>
-	<img src={logo} className="App-logo" alt="logo" />
-	<p>
-		Edit <code>src/App.js</code> and save to reload.
-	</p>
-	<a
-    	className="App-link"
-		href="[https://reactjs.org](https://reactjs.org "https://reactjs.org")"
-		target="_blank"
-		rel="noopener noreferrer"
-	>
-		Learn React
-	</a>
+  <img src={logo} className="App-logo" alt="logo" />
+  <p>
+    Edit <code>src/App.js</code> and save to reload.
+  </p>
+  <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+    Learn React
+  </a>
 </main>
 ```
 
