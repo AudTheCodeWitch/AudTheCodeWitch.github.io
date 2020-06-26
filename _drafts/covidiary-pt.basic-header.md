@@ -71,6 +71,8 @@ You can remove all the default React code if you’d like. I moved it into a `ma
 
 Right now, your project will look something like this:
 
+![COVIDiary with the stubbed header component](/uploads/basic-header.jpg "Basic Header")
+
 ## Fill in the Details
 
 Let’s start to format our header to match our wireframe sketch. From here on out, we’re working in `components/Header.js`.
@@ -105,7 +107,7 @@ We also want to make sure our `Navbar` is responsive so it will adapt when users
 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
 ```
 
-Finally, let's add the main navigation links. We want them to collapse into a hamburger menu on smaller screens, so we will wrap them in a `<Navbar.Collapse>` component. Note the id and className come straight from the React-Bootstrap documentation. 
+Finally, let's add the main navigation links. We want them to collapse into a hamburger menu on smaller screens, so we will wrap them in a `<Navbar.Collapse>` component. Note the id and className come straight from the React-Bootstrap documentation.
 
 ```jsx
 <Navbar.Collapse id="responsive-navbar-nav">
@@ -116,6 +118,18 @@ Finally, let's add the main navigation links. We want them to collapse into a ha
   </Nav>
 </Navbar.Collapse>
 ```
+
+Our basic header is complete! Here it is on medium and larger screens:
+
+![Header on medium and larger screens](/uploads/medium-header.jpg "Medium Header")
+
+Here is the hamburger menu on small screens:
+
+![Header with hamburger menu](/uploads/collapsed-header.jpg "Small Header")
+
+And here is the expanded hamburger menu:
+
+![Header with expanded hamburger menu](/uploads/expanded-small-header.jpg "Expanded Small Header")
 
 ## Coming Up
 
