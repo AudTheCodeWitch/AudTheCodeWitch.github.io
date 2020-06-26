@@ -75,11 +75,46 @@ Right now, your project will look something like this:
 
 Let’s start to format our header to match our wireframe sketch. From here on out, we’re working in `components/Header.js`.
 
-For our header, we will be using React-Bootstrap’s [`NavBar`](https://react-bootstrap.github.io/components/navbar/) and `Nav` components. To begin, import the components at the top of your file:
+For our header, we will be using React-Bootstrap’s [`NavBar`](https://react-bootstrap.github.io/components/navbar/ "NavBar") and [`Nav`](https://react-bootstrap.github.io/components/navs/ "Navs") components. To begin, import the components at the top of your file:
 
 ```jsx
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
+```
+
+Now, let's replace our `div` with `NavBar`. We'll pass it props to adjust the styling.
+
+```jsx
+<Navbar expand='md' bg='dark' variant='dark' as='header'>
+  {/*expand - breakpoint at which hamburger menu expands*/}
+  {/*bg - sets background color*/}
+  {/*variant - use dark color scheme for dark bg*/}
+  {/*as - converts default <div> tag to <header> tag*/}
+</Navbar>
+```
+
+Within our `Navbar`, let's put our site's name on the left. You could also use a logo here, if you had one. We'll have this element link to our root page.
+
+```jsx
+  <Navbar.Brand href="/">COVIDiary</Navbar.Brand>
+```
+
+We also want to make sure our `Navbar` is responsive so it will adapt when users adjust their screen sizes.
+
+```jsx
+<Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+```
+
+Finally, let's add the main navigation links. We want them to collapse into a hamburger menu on smaller screens, so we will wrap them in a `<Navbar.Collapse>` component. Note the id and className come straight from the React-Bootstrap documentation. 
+
+```jsx
+<Navbar.Collapse id="responsive-navbar-nav">
+  <Nav className="ml-auto" as='nav'>
+  {/*ml-auto - aligns nav links to the right of the container*/}
+    <Nav.Link href="/about">About</Nav.Link>
+    <Nav.Link href="/register">Register</Nav.Link>
+  </Nav>
+</Navbar.Collapse>
 ```
 
 ## Coming Up
