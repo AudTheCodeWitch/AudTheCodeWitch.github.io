@@ -17,6 +17,7 @@ Welcome to Part 11 of the COVIDiary project! If you’re just joining us or miss
 * [Part 7: A Little More Action](https://www.codewitch.dev/covidiary_pt_7_-_a_little_more_action)
 * [Part 8: Make the Connection](https://www.codewitch.dev/covidiary_pt_8_-_make_the_connection)
 * [Part 9: UX Design](https://www.codewitch.dev/covidiary_pt_9_-_ux_design)
+* [Part 10: Our First Component](https://www.codewitch.dev/covidiary_pt_10_-_our_first_component)
 
 This week, we’re creating a simple `Header` component. We aren’t getting into the nitty-gritty of adding auth just yet. Today’s goal is to get the basic layout of our `Header`. Before we begin, run `yarn start` in your terminal to open your application in the browser.
 
