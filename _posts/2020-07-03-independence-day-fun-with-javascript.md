@@ -56,3 +56,5 @@ US Flag (Complete)</a> by Audrea Cook (<a href="https://codepen.io/audthecodewit
 on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+I hope you had as much fun with this as I did! Have a safe and wonderful 4th of July!
