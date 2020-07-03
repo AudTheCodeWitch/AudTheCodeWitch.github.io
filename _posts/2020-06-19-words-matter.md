@@ -54,7 +54,7 @@ So let’s start small by changing our primary GitHub branches from `master` to 
 In your terminal:
 
 ```shell
-$ git branch -master main
+$ git branch -m master main
 $ git push -u origin main
 ```
 
