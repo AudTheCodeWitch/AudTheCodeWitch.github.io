@@ -5,7 +5,7 @@ title: Independence Day Fun With JavaScript
 permalink: independence_day_fun_with_javascript
 
 ---
-If you live in the USA, happy Independence Day! I've been busy this week doing family stuff, so I honestly haven't touched the COVIDiary project. We'll hopefully get back into that in the next week or so.
+If you live in the USA, Happy Independence Day! I've been busy this week doing family stuff, so I honestly haven't touched the COVIDiary project. We'll hopefully get back into that in the next week or so.
 
 Instead, I thought we'd have a little fun with JavaScript today. We are going to use HTML, CSS, and JavaScript to create the American Flag!
 
