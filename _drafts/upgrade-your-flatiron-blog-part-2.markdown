@@ -33,10 +33,14 @@ Once you've logged in, importing your blog is simple.
 1. Click the green **Add Site** button. 
 2. Within the popup, select your static site generator. Again, your Flatiron blog is already built with Jekyll.
 3. Select your git provider. Your Flatiron blog is on Github. Make sure the **Quick Setup via OAuth** toggle is on.
-4. Choose your git repository (it should look like `YourUsername/BlogName.github.io` and the branch (`master`).
+4. Choose your git repository (it should look like `YourUsername/BlogName.github.io` and the branch you would like to use.
 
 From here, Forestry will import your blog!
 
 ## Start Writing
 
-On the left sidebar, Forestry.io will detect the basic components of your blog. They will be broken into **Pages** (your home, about, and any other static pages you created) and **Posts** (your individual blog posts).
+On the left sidebar, Forestry.io will detect the basic components of your blog. They will be broken into **Pages** (your home, about, and any other static pages you created) and **Posts** (your individual blog posts). 
+
+If you click the **Posts** button, it will display all the blog posts you've published so far. One feature I really like is the **Set as draft** option, located under the more options (`...`) menu to the right of each post. This way, you can make edits and use the live previewer without changing your published post until you are ready! 
+
+To begin a new blog post, click **Create new** button. On the left will be your front matter (learn how to configure that here), and the right will display your WYSIWYG editor.
