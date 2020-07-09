@@ -1,74 +1,42 @@
 ---
 layout: post
-title: Upgrade Your Flatiron Blog Part 2
+title: Upgrade Your Flatiron Blog - Part 2
 date: 2020-02-20T17:22:35.000-05:00
 
 ---
-Y’all know by now that I am a Flatiron graduate. As one of their many program requirements, students are expected to keep a technical blog (which you’re reading). They make it super simple by setting one up for you using GitHub Pages (which hosts your blog for FREE). 
+A few months ago, I shared [how to spruce up your Flatiron blog](https://www.codewitch.dev/upgrade_your_basic_flatiron_blog). Since then, I've continued to publish a new blog post each week. Learn.co provides Flatiron students with a built-in blogging platform that is serviceable, if not flashy. Of CodeWitch.dev's 35 blog posts, I wrote and published 30 of them through Learn.co. 
 
-Unfortunately, your blog looks identical to those of all your Flatiron classmates.
+At the beginning of June, a prospective employer asked me what I knew about CMSs, or Content Management Systems. At the time, my answer was, "Honestly? Not much." 
 
-<center>
-<img src='https://media.giphy.com/media/Fff5OHrhY19sY/source.gif' alt="Star Wars Clones"/>
-</center>
+Determined to come up with a better answer for my follow-up email, I did some research. I learned that a CMS is simply a way to handle all the content (pages, blog posts, etc.) for a website. A CMS is especially helpful for team members who aren't as tech-savvy because it wraps the tricky code into a nice, WYSIWYG (what you see is what you get) format. 
 
-Where’s the magic in that? Let me walk you through a few _dead simple_ ways to take your blog to the next level.
+As an experiment, I decided to migrate my Flatiron blog to a CMS. Through this process, I figured I would learn a new skill, have a better understanding of what a CMS is actually good for, and maybe -- just maybe -- find a nicer text editor for my blog.
 
+## Choose a CMS
 
-## Get That Domain
+There are countless CMSs out there, but I ultimately settled on Forestry.io for the following reasons:
 
-You guys, I did a thing. I finally purchased a custom domain for my blog. Welcome to codewitch.dev! After realizing how quick and easy this was, I’m now kicking myself for not handling it earlier. Here’s how I did it:
+* The free plan would fit my needs perfectly.
+* It integrates cleanly with GitHub Pages and Jekyll, which is how Flatiron initially builds your blog.
+* It has a live preview server.
+* It is git-based, meaning all posts and edits would be pushed to the GitHub repository first, making it easy to track changes.
+* It came [highly recommended](https://bejamas.io/blog/headless-cms/#introduction).
 
+## Sign Up for Forestry.io
 
-1. Purchase a domain name on a site like Namecheap (that’s who I used). Come up with a name that’s relevant and memorable. I like the `.dev` extension because it tells visitors exactly what they are getting with my site.
-2. We need to add 5 DNS records to your new domain. On Namecheap, you can do this under the Advanced DNS tab. Copy these records, substituting your GitHub username for the `CNAME`:
+If you're ready to make the change, sign up for your [free Forestry.io account](https://app.forestry.io/signup). I chose to sign up through GitHub, but you can use a regular email address and password if you like.
 
-    <center>
-    <img src='https://i.imgur.com/mysawbK.jpg' alt="DNS Records"/>
-    </center>
+## Import Your Blog
 
-3. Now, navigate to the `Settings` tab on your blog’s GitHub repository, and scroll down to the `GitHub Pages` section. Enter your new domain in the provided text box and click `Save`. When available (it took about 5 minutes for me), refresh the page and check the `Enforce HTTPS` box. 
+Once you've logged in, importing your blog is simple.
 
-    <center>
-    <img src='https://i.imgur.com/ZpwtU8f.jpg' alt="Custom Domain Settings on GitHub"/>
-    </center>
+1. Click the green **Add Site** button. 
+2. Within the popup, select your static site generator. Again, your Flatiron blog is already built with Jekyll.
+3. Select your git provider. Your Flatiron blog is on Github. Make sure the **Quick Setup via OAuth** toggle is on.
+4. Choose your git repository (it should look like `YourUsername/BlogName.github.io` and the branch (`master`).
 
-4. Visit your new domain! Keep in mind, you may have to wait up to 24 hours for all your changes to take effect. Don’t do this right before your next blog post is due.
+From here, Forestry will import your blog!
 
+## Start Writing
 
-## Update Your Background Images
-
-Right now, your blog is built using the Jekyll version of Start Bootstrap’s Clean Blog theme. Flatiron took care of a lot of the configuration for you, but their choice in background images is a little too… blue for me. Let’s fix that!
-
-
-
-1. Find some images that fit your personality. I recommend Pixabay for free and ready-to-go pictures, but you can always create your own, as well. I used an image editor to resize my galaxy picture so it fits _just right_ (1299 x 448 pixels).
-2. In your blog’s repo, add your new pictures to the `/img` folder and commit the changes.
-3. In your blog’s `_config.yml` file, change the `header-img` path to the new location.
-4. The `about.html` file has a different image path, so you'll want to change that one as well. In my case, I just deleted that line altogether so I would have the same background image throughout my entire site.
-
-
-## Spruce Up Your About Me
-
-Flatiron’s Blog Settings page has a small text box for your about me, but you can add as much as you want by editing the `about.html` file in your repo directly. So you don’t mess up the Jekyll styling, leave the first few lines like this:
-
-```html
----
-
-layout: page
-
-title: About
-
-header-img: "img/your-new-about-bg.png"
-
----
-```
-
-After that, edit the page just as you would with any `.html` file. Don’t forget to commit your changes!
-
-
-## Endless Possibilities
-
-These few changes can have a big impact on your blog, but it’s all yours. Go wild, and customize it to your heart’s content. Explore other themes, play with the styling, and see what you can come up with! GitHub’s version control makes it easy to roll back to a previous version if you make a mistake. However, for some extra security, you can always create a development branch to try out your changes before making them go live.
-
-Whatever you do, be proud of your patch of the Internet, and let it be a reflection of your unique, magical self. You’ve got this.
+On the left sidebar, Forestry.io will detect the basic components of your blog. They will be broken into **Pages** (your home, about, and any other static pages you created) and **Posts** (your individual blog posts).
