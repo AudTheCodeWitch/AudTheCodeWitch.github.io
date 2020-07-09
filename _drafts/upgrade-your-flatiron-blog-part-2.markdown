@@ -2,7 +2,6 @@
 layout: post
 title: Upgrade Your Flatiron Blog Part 2
 date: 2020-02-20T17:22:35.000-05:00
-permalink: upgrade_your_basic_flatiron_blog
 
 ---
 Y’all know by now that I am a Flatiron graduate. As one of their many program requirements, students are expected to keep a technical blog (which you’re reading). They make it super simple by setting one up for you using GitHub Pages (which hosts your blog for FREE). 
