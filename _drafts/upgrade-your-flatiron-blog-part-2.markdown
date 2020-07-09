@@ -33,13 +33,19 @@ Once you've logged in, importing your blog is simple.
 1. Click the green **Add Site** button.
 2. Within the popup, select your static site generator. Again, your Flatiron blog is already built with Jekyll.
 
-   ![Select Static Site](/uploads/addsite.png "Select Static Site")
+  <center>
+  	<img src="/uploads/addsite.png" alt="Select Static Site">
+  </center>
 3. Select your git provider. Your Flatiron blog is on Github. Make sure the **Quick Setup via OAuth** toggle is on.
 
-   ![Select git provider](/uploads/gitprovider.png "Select git provider")
+  <center>
+  	<img src="/uploads/gitprovider.png" alt="Select git provider">
+  </center>
 4. Choose your git repository (it should look like `YourUsername/BlogName.github.io`) and the branch you would like to use.
 
-   ![Choose git repository](/uploads/chooserepo.png "Choose git repository")
+  <center>
+  	<img src="/uploads/chooserepo.png" alt="Choose git repository">
+  </center>
 
 From here, Forestry will import your blog!
 
@@ -51,11 +57,15 @@ If you click the **Posts** button, it will display all the blog posts you've pub
 
 To begin a new blog post, click the **Create new** button. On the left will be your front matter (learn how to configure that here), and the right will display your WYSIWYG editor.
 
-![Forestry.io's WYSIWYG editor view](/uploads/wysiwyg.png "WYSIWYG Editor")
+  <center>
+  	<img src="/uploads/wysiwyg.png" alt="WYSIWYG editor view">
+  </center>
 
 For the most part, this view works perfectly for me. However, I occasionally want to tweak my code blocks or customize the HTML a bit more. For this, I click the **More Options** (`...`) icon at the top of the page and select the **Raw Editor**. This displays your blog post in its bare Markdown format, complete with handy-dandy line numbers!
 
-![Forestry.io's Raw Markdown editor view](/uploads/raweditor.png "Raw Editor")
+  <center>
+  	<img src="/uploads/raweditor.png" alt="Raw editor view">
+  </center>
 
 ## Make Forestry.io Your Own
 
