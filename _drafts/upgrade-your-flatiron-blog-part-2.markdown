@@ -43,7 +43,13 @@ On the left sidebar, Forestry.io will detect the basic components of your blog. 
 
 If you click the **Posts** button, it will display all the blog posts you've published so far. One feature I really like is the **Set as draft** option, located under the **More Options** (`...`) icon to the right of each post. This way, you can make edits and use the live previewer without changing your published post until you are ready!
 
-To begin a new blog post, click the **Create new** button. On the left will be your front matter (learn how to configure that here), and the right will display your WYSIWYG editor. For the most part, this view works perfectly for me. However, I occasionally want to tweak my code blocks or customize the HTML a bit more. For this, I click the **More Options** (`...`) icon at the top of the page and select the **Raw Editor**. This displays your blog post in its bare Markdown format, complete with handy-dandy line numbers!
+To begin a new blog post, click the **Create new** button. On the left will be your front matter (learn how to configure that here), and the right will display your WYSIWYG editor.
+
+![Forestry.io's WYSIWYG editor view](/uploads/wysiwyg.png "WYSIWYG Editor")
+
+For the most part, this view works perfectly for me. However, I occasionally want to tweak my code blocks or customize the HTML a bit more. For this, I click the **More Options** (`...`) icon at the top of the page and select the **Raw Editor**. This displays your blog post in its bare Markdown format, complete with handy-dandy line numbers!
+
+![Forestry.io's Raw Markdown editor view](/uploads/raweditor.png "Raw Editor")
 
 ## Make Forestry.io Your Own
 
