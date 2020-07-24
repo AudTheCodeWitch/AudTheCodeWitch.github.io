@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-07-20 09:34:03 -0600
+date: 2020-07-24 16:00:00 -0600
 title: 'Course Review: FreeCodeCamp''s JavaScript Algorithms and Data Structures'
 
 ---
