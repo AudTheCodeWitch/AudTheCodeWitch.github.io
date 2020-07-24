@@ -18,7 +18,7 @@ Don't let the 110 lessons intimidate you. This section starts with the very basi
 
 ### Module 2: ES6
 
-This 31-lesson module explores ES6, the "most recent standardized version" of JavaScript, which came out in 2015. This section breaks down arrow functions, classes, modules, and more. 
+This 31-lesson module explores ES6, the "most recent standardized version" of JavaScript, which came out in 2015. This section breaks down arrow functions, classes, modules, and more.
 
 I enjoyed practicing object destructuring, like in the example below:
 
@@ -44,48 +44,46 @@ This section also explained how to import and export your code for reuse. I appr
 
 ### Module 3: Regular Expressions
 
-I was a bit terrified to begin this 33-lesson module. Regex has always mystified me, and I thought this section would be no exception. 
+I was a bit terrified to begin this 33-lesson module. Regex has always mystified me, and I thought this section would be no exception.
 
-Perhaps not surprisingly, FreeCodeCamp did a great job explaining how to use `.match()` and `.test()`, as well as all sorts of Regex, to manipulate your JavaScript code. 
+Perhaps not surprisingly, FreeCodeCamp did a great job explaining how to use `.match()` and `.test()`, as well as all sorts of Regex, to manipulate your JavaScript code.
 
-While I wouldn't say Regex is _easy_ for me, this course, coupled with [Regex101](https://regex101.com/ "Regex 101"), certainly made it _easier_. I now recognize when and how to use Regex, and I no longer balk at it.
+While I wouldn't say Regex is _easy_ for me, this course, coupled with [Regex101](https://regex101.com/ "Regex 101"), certainly made it _easier_. I now recognize when and how to use Regex, and I no longer balk at doing so.
 
 ### Module 4: Debugging
 
-For me, this was the least helpful module in the course. The 12-lesson section on debugging did not do much more than explain how to use `console.log()` to check for common code errors. 
+For me, this was the least helpful module in the course. The 12-lesson section on debugging did not do much more than explain how to use `console.log()` to check for common code errors.
 
 ### Module 5: Basic Data Structures
 
-This module is short and sweet, at only 4 lessons. It explains how to create a media query and make images and other elements responsive, but I feel like this was the weakest section of the course.
-
-In the future, I would love to see freeCodeCamp expand this section to discuss mobile-first vs desktop-first design approaches. A few lessons discussing important media query break-points would also be awesome. To supplement the section as it currently stands, I recommend reviewing the [Media Queries](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) section of w3schools' Responsive Web Design module.
+For me, this 20-lesson module was a great review of how to manipulate JavaScript arrays and objects. While I've written several blog posts on array manipulation in the past few months, I have not spent as much time studying JavaScript objects. This section refreshed my memory on how to add, remove, and update object keys and values, as well as how to iterate through an object's keys with a `for...in` loop.
 
 ### Module 6: Basic Algorithm Scripting
 
-The final two modules cover some more advanced aspects of CSS. This 17-lesson section explains how to use `flexbox` to position elements within a container. While freeCodeCamp covers `flexbox` pretty well, I still find it to be a little confusing, especially for beginners. If you struggle with this section, I suggest reading [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) by CSS-Tricks. Their explanations and illustrations, coupled with freeCodeCamp's exercises, really solidified this concept for me.
+This 16-lesson section is the first of two practice problem sets. These code challenges require you to apply the knowledge from the previous sections.  Challenges like "Convert Celsius to Fahrenheit" and "Factorialize a Number" were great JavaScript exercises that required a bit of math logic to solve, while others were more focused on pure code concepts, like array and string manipulations.
 
-### Module 7: Object Oriented Programming
+### Module 7: Object-Oriented Programming
 
-The final module is 22 lessons long, and covers `grid`, another tool for creating complex web layouts. Having used `grid` in previous projects (not to mention countless Neopets pages), I found this module to be a solid review. Learners create basic grids using `grid-template-rows` and `grid-template-columns`. After learning to adjust these grids, users then learn to align items within the grid as well as use the ever-helpful `grid-template-areas`.
+We spent a great deal of time learning object-oriented programming at Flatiron, so this was another review section for me. These 26 lessons explore how to structure, alter, and implement JavaScript classes. I found the lessons on constructors and prototypes to be especially helpful.
 
 ### Module 8: Functional Programming
 
-wfwalfjwelfjwewefjweoifjweaofjw
+Like object-oriented programming, functional programming is a popular approach to writing code.  This 24-lesson section focuses on writing functions to solve coding problems while resisting the urge to transform the given data inputs. This section also reviews common higher-order functions, like `.map()`, `.reduce()`, and `.filter()`.
 
 ### Module 9: Intermediate Algorithm Scripting
 
+This is the second set of practice challenges. There are 21 lessons, each more complicated than the last. Some of my personal favorites include "Spinal Tap Case," "Pig Latin," and "Sum All Odd Fibonacci Numbers." I found this section to have exercises similar to the ones I have been assigned by companies during my job search, so it was highly valuable practice for me.
+
 ## The Projects
 
-To complete this course, learners must create 5 separate pages, each with unique user stories to guide the design. FreeCodeCamp provides a CodePen.io example for each project, but they also give a huge amount of creative freedom.
+To complete this course, learners must complete 5 difficult coding challenges. These projects test your JavaScript knowledge as well as your logic skills. "Roman Numeral Converter" and "Cash Register" just about did me in, and it was so satisfying to get all their tests to finally pass.
 
-I make no claims to being a designer. However, after quickly getting the tests to pass, I usually spent a few more hours playing with the CSS, tweaking things here and there, and trying new techniques learned throughout this course.
-
-I chose to complete these projects using my own editor (RubyMine) instead of CodePen. I also created a GitHub repository for each project to track my code changes. Additionally, I used these projects as an opportunity to practice deploying sites to Heroku.
-
-Here are my submissions for the 5 projects. Click the links to see them in action. Note that any forms don't actually submit anywhere.
+_AFTER_ you complete a final project or a lesson in one of the algorithm scripting sections, I highly recommend you visit the **Get a Hint** link in the **Get Help** dropdown. This link often provides a detailed explanation of the logic required, but my favorite part are the possible solutions listed at the bottom. We all know that, with code, there's always more than one way to skin a cat, and I found comparing my solution with the provided ones to be extremely valuable. 
 
 ## Final Thoughts
 
-Overall, I think freeCodeCamp has created an excellent course. Did it take me 300 hours to complete? Definitely not. Would it take that long for an absolute beginner? Possibly. Either way, the Responsive Web Design course is a solid review for experienced devs, and a great introductory course for code newbies.
+Overall, freeCodeCamp built an excellent course. This one would be more difficult, though not impossible, for an absolute beginner, but I believe it is perfect for a novice. 
 
-If you have ANY interest in code or web design, I highly recommend starting with [freeCodeCamp](https://www.freecodecamp.org/learn/).
+My only complaint is this course does not explore the DOM or how JavaScript can be used in tandem with HTML and CSS. A separate course should be added to the freeCodeCamp platform, or this topic should be covered in either this course or the Responsive Web Design Certification.  
+
+Once again, if you have ANY interest in code or web design, I highly recommend starting with [freeCodeCamp](https://www.freecodecamp.org/learn/).
