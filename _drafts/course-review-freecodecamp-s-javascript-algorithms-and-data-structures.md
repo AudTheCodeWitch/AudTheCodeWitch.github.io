@@ -60,7 +60,7 @@ For me, this 20-lesson module was a great review of how to manipulate JavaScript
 
 ### Module 6: Basic Algorithm Scripting
 
-This 16-lesson section is the first of two practice problem sets. These code challenges require you to apply the knowledge from the previous sections.  Challenges like "Convert Celsius to Fahrenheit" and "Factorialize a Number" were great JavaScript exercises that required a bit of math logic to solve, while others were more focused on pure code concepts, like array and string manipulations.
+This 16-lesson section is the first of two practice problem sets. These code challenges require you to apply the knowledge from the previous sections.  Challenges like "[Convert Celsius to Fahrenheit](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/convert-celsius-to-fahrenheit)" and "[Factorialize a Number](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-algorithm-scripting/factorialize-a-number)" were great JavaScript exercises that required a bit of math logic to solve, while others were more focused on pure code concepts, like array and string manipulations.
 
 ### Module 7: Object-Oriented Programming
 
@@ -72,11 +72,17 @@ Like object-oriented programming, functional programming is a popular approach t
 
 ### Module 9: Intermediate Algorithm Scripting
 
-This is the second set of practice challenges. There are 21 lessons, each more complicated than the last. Some of my personal favorites include "Spinal Tap Case," "Pig Latin," and "Sum All Odd Fibonacci Numbers." I found this section to have exercises similar to the ones I have been assigned by companies during my job search, so it was highly valuable practice for me.
+This is the second set of practice challenges. There are 21 lessons, each more complicated than the last. Some of my personal favorites include "[Spinal Tap Case](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/spinal-tap-case)," "[Pig Latin](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin)," and "[Sum All Odd Fibonacci Numbers](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/sum-all-odd-fibonacci-numbers)."
+
+<center>
+<img src='https://media.giphy.com/media/PJoFStRf6SEEw/source.gif' alt='Spinal Tap: There is such a fine line between stupid and clever." />
+</center>
+
+I found this section to have exercises similar to the ones I have been assigned by companies during my job search, so it was highly valuable practice for me.
 
 ## The Projects
 
-To complete this course, learners must complete 5 difficult coding challenges. These projects test your JavaScript knowledge as well as your logic skills. "Roman Numeral Converter" and "Cash Register" just about did me in, and it was so satisfying to get all their tests to finally pass.
+To complete this course, learners must complete 5 difficult coding challenges. These projects test your JavaScript knowledge as well as your logic skills. Deciphering the logic required for "[Roman Numeral Converter](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter)" and "[Cash Register](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/cash-register)" just about did me in, but it was so satisfying when all the tests finally passed.
 
 _AFTER_ you complete a final project or a lesson in one of the algorithm scripting sections, I highly recommend you visit the **Get a Hint** link in the **Get Help** dropdown. This link often provides a detailed explanation of the logic required, but my favorite part are the possible solutions listed at the bottom. We all know that, with code, there's always more than one way to skin a cat, and I found comparing my solution with the provided ones to be extremely valuable. 
 
